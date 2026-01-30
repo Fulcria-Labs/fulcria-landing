@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fulcria Labs - AI Golf Technology | Innovate. Create. Excel.</title>
-    <meta name="description" content="Fulcria Labs builds AI-powered tools for golfers. Try Swing Analyzer for instant swing analysis in 90 seconds.">
+    <title>Fulcria Labs - Technology That Matters</title>
+    <meta name="description" content="Fulcria Labs builds technology products that solve real problems. Our ventures include AI-powered tools, software products, and innovative solutions.">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Fulcria Labs - AI Golf Technology">
-    <meta property="og:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
+    <meta property="og:title" content="Fulcria Labs - Technology That Matters">
+    <meta property="og:description" content="We build technology products that solve real problems. Our ventures span AI, software, and innovative solutions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fulcria.com">
-    <meta property="og:image" content="https://fulcria-labs.github.io/landing/assets/images/logo-400.png">
+    <meta property="og:image" content="https://fulcria-labs.github.io/fulcria-landing/assets/images/logo-400.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fulcria Labs - AI Golf Technology">
-    <meta name="twitter:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
-    <meta name="twitter:image" content="https://fulcria-labs.github.io/landing/assets/images/logo-400.png">
+    <meta name="twitter:title" content="Fulcria Labs - Technology That Matters">
+    <meta name="twitter:description" content="We build technology products that solve real problems.">
+    <meta name="twitter:image" content="https://fulcria-labs.github.io/fulcria-landing/assets/images/logo-400.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -239,8 +239,8 @@
             height: 20px;
         }
 
-        /* ===== HOW IT WORKS ===== */
-        .how-it-works {
+        /* ===== ABOUT / VALUES SECTION ===== */
+        .about-section {
             padding: 5rem 0;
             background: var(--white);
         }
@@ -265,19 +265,18 @@
             margin: 0 auto;
         }
 
-        .steps-grid {
+        .values-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 3rem;
         }
 
-        .step {
+        .value-card {
             text-align: center;
             padding: 2rem;
-            position: relative;
         }
 
-        .step-number {
+        .value-icon {
             width: 60px;
             height: 60px;
             background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%);
@@ -286,192 +285,162 @@
             align-items: center;
             justify-content: center;
             margin: 0 auto 1.5rem;
-            color: white;
-            font-size: 1.5rem;
-            font-weight: 800;
             box-shadow: var(--shadow-lg);
         }
 
-        .step h3 {
+        .value-icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: white;
+            fill: none;
+        }
+
+        .value-card h3 {
             font-size: 1.25rem;
             color: var(--text);
             margin-bottom: 0.75rem;
             font-weight: 700;
         }
 
-        .step p {
+        .value-card p {
             color: var(--text-secondary);
             font-size: 1rem;
             line-height: 1.6;
         }
 
-        .step-time {
-            display: inline-block;
-            background: var(--bg-alt);
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            color: var(--accent);
-            font-weight: 600;
-            margin-top: 1rem;
-        }
-
-        /* ===== PRODUCT SECTION ===== */
-        .product-section {
+        /* ===== VENTURES SECTION ===== */
+        .ventures-section {
             padding: 5rem 0;
             background: var(--bg);
         }
 
-        .product-content {
+        .ventures-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
         }
 
-        .product-info h2 {
-            font-size: clamp(1.75rem, 4vw, 2.5rem);
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-            font-weight: 800;
-            letter-spacing: -0.02em;
+        .venture-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 2.5rem;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
         }
 
-        .product-subtitle {
-            font-size: 1.25rem;
-            color: var(--accent);
-            margin-bottom: 1.5rem;
-            font-weight: 600;
+        .venture-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: transparent;
         }
 
-        .product-info > p {
-            margin-bottom: 2rem;
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            line-height: 1.7;
-        }
-
-        .features-list {
-            list-style: none;
-            margin-bottom: 2.5rem;
-        }
-
-        .features-list li {
-            padding: 0.875rem 0;
-            padding-left: 2.5rem;
+        .venture-card.featured {
+            border: 2px solid var(--accent);
             position: relative;
-            font-size: 1.05rem;
+        }
+
+        .venture-badge {
+            position: absolute;
+            top: -12px;
+            left: 24px;
+            background: var(--accent);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .venture-card h3 {
+            font-size: 1.5rem;
             color: var(--text);
-            border-bottom: 1px solid var(--border);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
         }
 
-        .features-list li:last-child {
-            border-bottom: none;
+        .venture-card .venture-tagline {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 1rem;
         }
 
-        .features-list li::before {
+        .venture-card p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.7;
+            flex-grow: 1;
+            margin-bottom: 1.5rem;
+        }
+
+        .venture-features {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .venture-features li {
+            padding: 0.5rem 0;
+            padding-left: 1.75rem;
+            position: relative;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .venture-features li::before {
             content: "";
             position: absolute;
             left: 0;
-            top: 1rem;
-            width: 20px;
-            height: 20px;
+            top: 0.65rem;
+            width: 16px;
+            height: 16px;
             background: var(--accent);
             border-radius: 50%;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
-            background-size: 12px;
+            background-size: 10px;
             background-position: center;
             background-repeat: no-repeat;
         }
 
-        .features-list li strong {
-            color: var(--text);
-        }
-
-        .product-visual {
-            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
-            border-radius: 24px;
-            padding: 3rem;
-            display: flex;
-            flex-direction: column;
+        .venture-cta {
+            display: inline-flex;
             align-items: center;
-            justify-content: center;
-            min-height: 500px;
-            box-shadow: var(--shadow-xl);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .product-visual::before {
-            content: '';
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            background: rgba(255,255,255,0.05);
-            border-radius: 50%;
-            top: -100px;
-            right: -100px;
-        }
-
-        .phone-mockup {
-            width: 220px;
-            height: 440px;
-            background: #0d1117;
-            border-radius: 36px;
-            padding: 12px;
-            box-shadow: 0 50px 100px rgba(0,0,0,0.3);
-            position: relative;
-        }
-
-        .phone-notch {
-            position: absolute;
-            top: 12px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 24px;
-            background: #0d1117;
-            border-radius: 0 0 14px 14px;
-            z-index: 2;
-        }
-
-        .phone-screen {
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(180deg, #1a365d 0%, #2c5282 100%);
-            border-radius: 26px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            gap: 0.5rem;
+            background: var(--primary);
             color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            position: relative;
-        }
-
-        .phone-screen .grade {
-            font-size: 5rem;
-            font-weight: 800;
-            margin-bottom: 0.5rem;
-            line-height: 1;
-            text-shadow: 0 4px 20px rgba(0,0,0,0.3);
-        }
-
-        .phone-screen .score-label {
-            opacity: 0.9;
-            font-size: 0.95rem;
-            font-weight: 500;
-        }
-
-        .phone-screen .analysis-time {
-            margin-top: 2.5rem;
-            padding: 0.625rem 1.25rem;
-            background: rgba(255,255,255,0.15);
-            border-radius: 25px;
-            font-size: 0.9rem;
+            padding: 0.875rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
             font-weight: 600;
-            backdrop-filter: blur(10px);
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            align-self: flex-start;
+        }
+
+        .venture-cta:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        .venture-cta svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .venture-card.coming-soon {
+            opacity: 0.85;
+        }
+
+        .venture-card.coming-soon .venture-cta {
+            background: var(--text-muted);
+            cursor: default;
+        }
+
+        .venture-card.coming-soon .venture-cta:hover {
+            transform: none;
         }
 
         /* ===== BLOG SECTION ===== */
@@ -692,19 +661,13 @@
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 900px) {
-            .steps-grid {
+            .values-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .product-content {
+            .ventures-grid {
                 grid-template-columns: 1fr;
-                gap: 3rem;
-            }
-
-            .product-visual {
-                order: -1;
-                min-height: 400px;
             }
 
             .blog-grid {
@@ -740,15 +703,6 @@
                 width: 100px;
                 height: 100px;
             }
-
-            .phone-mockup {
-                width: 180px;
-                height: 360px;
-            }
-
-            .phone-screen .grade {
-                font-size: 4rem;
-            }
         }
     </style>
 </head>
@@ -760,14 +714,14 @@
                 <img src="assets/images/logo-80.png" alt="Fulcria Labs Logo">
                 <div class="logo-text">
                     <span class="logo-name">Fulcria Labs</span>
-                    <span class="logo-tagline">INNOVATE. CREATE. EXCEL.</span>
+                    <span class="logo-tagline">TECHNOLOGY THAT MATTERS</span>
                 </div>
             </a>
             <nav>
-                <a href="#product">Products</a>
+                <a href="#ventures">Ventures</a>
                 <a href="https://fulcria-labs.github.io">Blog</a>
                 <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
-                <a href="https://swing.fulcria.com" class="nav-cta">Try Free</a>
+                <a href="mailto:eric.gaudet@fulcria.com" class="nav-cta">Contact</a>
             </nav>
         </div>
     </header>
@@ -776,11 +730,11 @@
     <section class="hero">
         <div class="container hero-content">
             <img src="assets/images/logo-400.png" alt="Fulcria Labs" class="hero-logo">
-            <h1>Building Smart Tools<br>for Everyday Golfers</h1>
-            <p class="tagline">AI Technology Meets Deep Golf Knowledge</p>
-            <p>We combine artificial intelligence with a genuine love of the game to help golfers improve faster and have more fun doing it.</p>
-            <a href="https://swing.fulcria.com" class="hero-cta">
-                Try Swing Analyzer Free
+            <h1>Building Technology<br>That Matters</h1>
+            <p class="tagline">Innovate. Create. Excel.</p>
+            <p>Fulcria Labs is a technology company focused on building products that solve real problems. We combine deep domain expertise with modern technology to create tools people actually want to use.</p>
+            <a href="#ventures" class="hero-cta">
+                Explore Our Ventures
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
@@ -788,68 +742,95 @@
         </div>
     </section>
 
-    <!-- How It Works -->
-    <section class="how-it-works">
+    <!-- About / Values Section -->
+    <section class="about-section">
         <div class="container">
             <div class="section-header">
-                <h2>How It Works</h2>
-                <p>Professional swing analysis in three simple steps</p>
+                <h2>Our Approach</h2>
+                <p>We believe in building things that work, not things that impress</p>
             </div>
-            <div class="steps-grid">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Record Your Swing</h3>
-                    <p>Use any phone, any angle. No tripod, sensors, or special equipment needed.</p>
-                    <span class="step-time">10 seconds</span>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Real Problems First</h3>
+                    <p>We start with actual problems people face, not technology looking for a use case. Every product we build solves a genuine pain point.</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>AI Analyzes</h3>
-                    <p>Our AI examines your swing mechanics, tempo, and form with professional-level detail.</p>
-                    <span class="step-time">60 seconds</span>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3>Ship Fast, Learn Faster</h3>
+                    <p>We believe in getting things in front of users quickly and iterating based on real feedback. Speed beats perfection.</p>
                 </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Get Your Grade</h3>
-                    <p>Receive letter grades, handicap estimate, and one focused tip to improve.</p>
-                    <span class="step-time">20 seconds</span>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4M12 8h.01"/>
+                        </svg>
+                    </div>
+                    <h3>Simplicity Wins</h3>
+                    <p>Complex problems don't need complex solutions. We focus on making things as simple as possible, but no simpler.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Section -->
-    <section class="product-section" id="product">
-        <div class="container product-content">
-            <div class="product-info">
-                <h2>Swing Analyzer</h2>
-                <p class="product-subtitle">Your AI Golf Coach in Your Pocket</p>
-                <p>Upload any swing video and get professional-level analysis in 90 seconds. No tripod needed. No waiting for results. Just instant, actionable feedback while the swing is still fresh in your mind.</p>
-
-                <ul class="features-list">
-                    <li><strong>90-Second Analysis</strong> &mdash; Get feedback while your swing is fresh</li>
-                    <li><strong>No Tripod Required</strong> &mdash; Works with any video from your camera roll</li>
-                    <li><strong>Fun Letter Grades</strong> &mdash; From A+ to F for every aspect of your swing</li>
-                    <li><strong>Handicap Guessing</strong> &mdash; AI predicts your skill level from swing mechanics</li>
-                    <li><strong>Actionable Tips</strong> &mdash; Clear suggestions to improve, not data dumps</li>
-                </ul>
-
-                <a href="https://swing.fulcria.com" class="hero-cta">
-                    Try Free
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                </a>
+    <!-- Ventures Section -->
+    <section class="ventures-section" id="ventures">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Ventures</h2>
+                <p>Products and projects we're working on</p>
             </div>
 
-            <div class="product-visual">
-                <div class="phone-mockup">
-                    <div class="phone-notch"></div>
-                    <div class="phone-screen">
-                        <div class="grade">B+</div>
-                        <div class="score-label">Overall Swing Grade</div>
-                        <div class="analysis-time">Analyzed in 87s</div>
-                    </div>
+            <div class="ventures-grid">
+                <!-- Swing Analyzer - Active Product -->
+                <div class="venture-card featured">
+                    <span class="venture-badge">Live</span>
+                    <h3>Swing Analyzer</h3>
+                    <p class="venture-tagline">AI Golf Coach in Your Pocket</p>
+                    <p>Upload any swing video and get professional-level analysis in 90 seconds. No tripod needed. No waiting for results. Just instant, actionable feedback.</p>
+                    <ul class="venture-features">
+                        <li>90-second AI analysis</li>
+                        <li>Works with any phone video</li>
+                        <li>Fun letter grades (A+ to F)</li>
+                        <li>Handicap estimation</li>
+                    </ul>
+                    <a href="https://swing.fulcria.com" class="venture-cta">
+                        Try Free
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Future Ventures Placeholder -->
+                <div class="venture-card coming-soon">
+                    <h3>More to Come</h3>
+                    <p class="venture-tagline">Always Building</p>
+                    <p>We're constantly exploring new opportunities where technology can make a real difference. Got an idea or want to collaborate?</p>
+                    <ul class="venture-features">
+                        <li>AI and machine learning</li>
+                        <li>Developer tools</li>
+                        <li>Consumer products</li>
+                        <li>B2B solutions</li>
+                    </ul>
+                    <a href="mailto:eric.gaudet@fulcria.com" class="venture-cta">
+                        Get in Touch
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </div>
@@ -859,8 +840,8 @@
     <section class="blog-section">
         <div class="container">
             <div class="section-header">
-                <h2>Golf Tech Insights</h2>
-                <p>Tips, techniques, and technology to improve your game</p>
+                <h2>From the Blog</h2>
+                <p>Insights on golf, technology, and building products</p>
             </div>
 
             <div class="blog-grid">
@@ -885,7 +866,7 @@
 
             <div class="view-all">
                 <a href="https://fulcria-labs.github.io">
-                    View All 63 Articles
+                    View All Articles
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
@@ -897,12 +878,13 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container cta-content">
-            <h2>Ready to Improve Your Swing?</h2>
-            <p>Join thousands of golfers getting AI-powered feedback. Free to try, no credit card required.</p>
-            <a href="https://swing.fulcria.com" class="hero-cta">
-                Get Started Free
+            <h2>Let's Build Something</h2>
+            <p>Whether you're interested in our products, have feedback, or want to explore collaboration opportunities, we'd love to hear from you.</p>
+            <a href="mailto:eric.gaudet@fulcria.com" class="hero-cta">
+                Get in Touch
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
                 </svg>
             </a>
         </div>
@@ -915,12 +897,12 @@
                 <div class="footer-brand">
                     <img src="assets/images/logo-80.png" alt="Fulcria Labs">
                     <h3>Fulcria Labs</h3>
-                    <p class="brand-tagline">Innovate. Create. Excel.</p>
-                    <p>Building AI-powered tools that help everyday golfers improve their game and have more fun on the course.</p>
+                    <p class="brand-tagline">Technology That Matters</p>
+                    <p>A technology company building products that solve real problems. Based in Massachusetts.</p>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Products</h4>
+                    <h4>Ventures</h4>
                     <ul>
                         <li><a href="https://swing.fulcria.com">Swing Analyzer</a></li>
                         <li><a href="https://fulcria-labs.github.io">Blog</a></li>
