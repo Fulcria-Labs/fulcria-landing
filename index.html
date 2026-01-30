@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fulcria Labs - AI Golf Technology</title>
+    <title>Fulcria Labs - AI Golf Technology | Innovate. Create. Excel.</title>
     <meta name="description" content="Fulcria Labs builds AI-powered tools for golfers. Try Swing Analyzer for instant swing analysis in 90 seconds.">
 
     <!-- Open Graph -->
@@ -11,14 +11,21 @@
     <meta property="og:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fulcria.com">
+    <meta property="og:image" content="https://fulcria-labs.github.io/landing/assets/images/logo-400.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fulcria Labs - AI Golf Technology">
     <meta name="twitter:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
+    <meta name="twitter:image" content="https://fulcria-labs.github.io/landing/assets/images/logo-400.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%231a472a'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white' font-family='system-ui'%3EF%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -28,37 +35,55 @@
         }
 
         :root {
-            --primary: #1a472a;
-            --primary-light: #2d5a3d;
-            --accent: #4CAF50;
-            --accent-hover: #43a047;
-            --text: #1e293b;
-            --text-light: #64748b;
-            --bg: #f8fafc;
+            /* Navy primary from actual logo */
+            --primary: #1a365d;
+            --primary-dark: #0d1f3c;
+            --primary-light: #2c5282;
+            /* Teal accent from actual logo */
+            --accent: #38a169;
+            --accent-hover: #2f855a;
+            --accent-light: #48bb78;
+            /* Neutrals */
+            --text: #1a202c;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
+            --bg: #f7fafc;
+            --bg-alt: #edf2f7;
             --white: #ffffff;
             --border: #e2e8f0;
+            /* Shadows */
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+            --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             color: var(--text);
             line-height: 1.6;
             background: var(--bg);
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* Header */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* ===== HEADER ===== */
         header {
             background: var(--white);
             border-bottom: 1px solid var(--border);
-            padding: 1rem 2rem;
+            padding: 0.875rem 0;
             position: sticky;
             top: 0;
             z-index: 100;
+            backdrop-filter: blur(10px);
         }
 
         .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -72,22 +97,28 @@
             color: var(--primary);
         }
 
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: var(--primary);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 700;
-            font-size: 1.25rem;
+        .logo img {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
         }
 
         .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-name {
             font-size: 1.25rem;
             font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .logo-tagline {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            letter-spacing: 0.05em;
         }
 
         nav {
@@ -97,9 +128,10 @@
         }
 
         nav a {
-            color: var(--text-light);
+            color: var(--text-secondary);
             text-decoration: none;
             font-weight: 500;
+            font-size: 0.95rem;
             transition: color 0.2s;
         }
 
@@ -110,76 +142,187 @@
         .nav-cta {
             background: var(--accent);
             color: white !important;
-            padding: 0.5rem 1.25rem;
+            padding: 0.625rem 1.25rem;
             border-radius: 8px;
             font-weight: 600;
+            transition: all 0.2s;
         }
 
         .nav-cta:hover {
             background: var(--accent-hover);
+            transform: translateY(-1px);
+            box-shadow: var(--shadow);
         }
 
-        /* Hero Section */
+        /* ===== HERO SECTION ===== */
         .hero {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
             color: white;
-            padding: 5rem 2rem;
-            text-align: center;
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
         }
 
         .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
             max-width: 800px;
             margin: 0 auto;
         }
 
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            filter: drop-shadow(0 10px 25px rgba(0,0,0,0.3));
+            border-radius: 20px;
+        }
+
         .hero h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-size: clamp(2.25rem, 5vw, 3.5rem);
             font-weight: 800;
             margin-bottom: 1rem;
-            line-height: 1.2;
+            line-height: 1.15;
+            letter-spacing: -0.02em;
         }
 
         .hero .tagline {
-            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            font-size: 1.35rem;
             opacity: 0.95;
             margin-bottom: 1.5rem;
+            font-weight: 500;
         }
 
         .hero p {
-            font-size: 1.1rem;
+            font-size: 1.125rem;
             opacity: 0.9;
             max-width: 600px;
-            margin: 0 auto 2rem;
+            margin: 0 auto 2.5rem;
+            line-height: 1.7;
         }
 
-        .cta-button {
-            display: inline-block;
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
             background: var(--accent);
             color: white;
             padding: 1rem 2.5rem;
-            border-radius: 10px;
+            border-radius: 12px;
             text-decoration: none;
             font-weight: 700;
             font-size: 1.1rem;
-            transition: all 0.2s;
-            box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            box-shadow: 0 4px 14px rgba(56, 161, 105, 0.4);
         }
 
-        .cta-button:hover {
+        .hero-cta:hover {
             background: var(--accent-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+            box-shadow: 0 8px 25px rgba(56, 161, 105, 0.5);
         }
 
-        /* Product Section */
-        .product-section {
-            padding: 5rem 2rem;
+        .hero-cta svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* ===== HOW IT WORKS ===== */
+        .how-it-works {
+            padding: 5rem 0;
             background: var(--white);
         }
 
-        .product-content {
-            max-width: 1200px;
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 0.75rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .section-header p {
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            max-width: 600px;
             margin: 0 auto;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+        }
+
+        .step {
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 800;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .step h3 {
+            font-size: 1.25rem;
+            color: var(--text);
+            margin-bottom: 0.75rem;
+            font-weight: 700;
+        }
+
+        .step p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .step-time {
+            display: inline-block;
+            background: var(--bg-alt);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        /* ===== PRODUCT SECTION ===== */
+        .product-section {
+            padding: 5rem 0;
+            background: var(--bg);
+        }
+
+        .product-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -190,161 +333,205 @@
             font-size: clamp(1.75rem, 4vw, 2.5rem);
             color: var(--primary);
             margin-bottom: 0.5rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
         }
 
         .product-subtitle {
             font-size: 1.25rem;
-            color: var(--text-light);
+            color: var(--accent);
             margin-bottom: 1.5rem;
+            font-weight: 600;
         }
 
-        .product-info p {
+        .product-info > p {
             margin-bottom: 2rem;
-            color: var(--text);
+            color: var(--text-secondary);
             font-size: 1.1rem;
+            line-height: 1.7;
         }
 
         .features-list {
             list-style: none;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
         }
 
         .features-list li {
-            padding: 0.75rem 0;
-            padding-left: 2rem;
+            padding: 0.875rem 0;
+            padding-left: 2.5rem;
             position: relative;
             font-size: 1.05rem;
+            color: var(--text);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .features-list li:last-child {
+            border-bottom: none;
         }
 
         .features-list li::before {
-            content: "✓";
+            content: "";
             position: absolute;
             left: 0;
-            color: var(--accent);
-            font-weight: bold;
+            top: 1rem;
+            width: 20px;
+            height: 20px;
+            background: var(--accent);
+            border-radius: 50%;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+            background-size: 12px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .features-list li strong {
+            color: var(--text);
         }
 
         .product-visual {
-            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
-            border-radius: 16px;
-            padding: 2rem;
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+            border-radius: 24px;
+            padding: 3rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 400px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            min-height: 500px;
+            box-shadow: var(--shadow-xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-visual::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 50%;
+            top: -100px;
+            right: -100px;
         }
 
         .phone-mockup {
-            width: 200px;
-            height: 400px;
-            background: #1e293b;
-            border-radius: 30px;
-            padding: 10px;
-            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            width: 220px;
+            height: 440px;
+            background: #0d1117;
+            border-radius: 36px;
+            padding: 12px;
+            box-shadow: 0 50px 100px rgba(0,0,0,0.3);
+            position: relative;
+        }
+
+        .phone-notch {
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 24px;
+            background: #0d1117;
+            border-radius: 0 0 14px 14px;
+            z-index: 2;
         }
 
         .phone-screen {
             width: 100%;
             height: 100%;
-            background: linear-gradient(180deg, var(--primary) 0%, var(--primary-light) 100%);
-            border-radius: 22px;
+            background: linear-gradient(180deg, #1a365d 0%, #2c5282 100%);
+            border-radius: 26px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             color: white;
-            padding: 1rem;
+            padding: 2rem 1rem;
             text-align: center;
+            position: relative;
         }
 
         .phone-screen .grade {
-            font-size: 4rem;
+            font-size: 5rem;
             font-weight: 800;
             margin-bottom: 0.5rem;
+            line-height: 1;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.3);
         }
 
         .phone-screen .score-label {
             opacity: 0.9;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            font-weight: 500;
         }
 
         .phone-screen .analysis-time {
-            margin-top: 2rem;
-            padding: 0.5rem 1rem;
+            margin-top: 2.5rem;
+            padding: 0.625rem 1.25rem;
             background: rgba(255,255,255,0.15);
-            border-radius: 20px;
-            font-size: 0.85rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
         }
 
-        /* Blog Section */
+        /* ===== BLOG SECTION ===== */
         .blog-section {
-            padding: 5rem 2rem;
-            background: var(--bg);
-        }
-
-        .blog-content {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-header h2 {
-            font-size: clamp(1.75rem, 4vw, 2.25rem);
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .section-header p {
-            color: var(--text-light);
-            font-size: 1.1rem;
+            padding: 5rem 0;
+            background: var(--white);
         }
 
         .blog-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
         }
 
         .blog-card {
             background: var(--white);
-            border-radius: 12px;
-            padding: 1.75rem;
+            border-radius: 16px;
+            padding: 2rem;
             text-decoration: none;
             color: inherit;
-            transition: all 0.2s;
+            transition: all 0.3s;
             border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
         }
 
         .blog-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+            border-color: transparent;
         }
 
         .blog-card h3 {
-            font-size: 1.15rem;
-            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+            margin-bottom: 0.875rem;
             color: var(--text);
+            font-weight: 700;
+            line-height: 1.35;
         }
 
         .blog-card p {
-            color: var(--text-light);
+            color: var(--text-secondary);
             font-size: 0.95rem;
-            line-height: 1.5;
+            line-height: 1.6;
+            flex-grow: 1;
         }
 
         .blog-card .read-more {
-            display: inline-block;
-            margin-top: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1.25rem;
             color: var(--accent);
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+        }
+
+        .blog-card:hover .read-more {
+            gap: 0.75rem;
         }
 
         .view-all {
@@ -352,51 +539,122 @@
         }
 
         .view-all a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             color: var(--primary);
             font-weight: 600;
             text-decoration: none;
+            font-size: 1.05rem;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            transition: all 0.2s;
         }
 
         .view-all a:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer */
-        footer {
             background: var(--primary);
             color: white;
-            padding: 3rem 2rem;
+        }
+
+        /* ===== CTA SECTION ===== */
+        .cta-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 50%;
+            bottom: -300px;
+            left: -200px;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+
+        .cta-content p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--primary-dark);
+            color: white;
+            padding: 4rem 0 2rem;
         }
 
         .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 2rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
         }
 
-        .footer-info {
-            opacity: 0.9;
+        .footer-brand img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1rem;
+            border-radius: 10px;
         }
 
-        .footer-info h3 {
-            font-size: 1.25rem;
+        .footer-brand h3 {
+            font-size: 1.35rem;
             margin-bottom: 0.5rem;
         }
 
-        .footer-links {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
+        .footer-brand .brand-tagline {
+            font-size: 0.85rem;
+            opacity: 0.7;
+            margin-bottom: 1rem;
+        }
+
+        .footer-brand p {
+            opacity: 0.8;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            max-width: 300px;
+        }
+
+        .footer-links h4 {
+            font-size: 1rem;
+            margin-bottom: 1.25rem;
+            font-weight: 600;
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
         }
 
         .footer-links a {
             color: white;
             text-decoration: none;
-            opacity: 0.8;
+            opacity: 0.75;
+            font-size: 0.95rem;
             transition: opacity 0.2s;
         }
 
@@ -404,51 +662,49 @@
             opacity: 1;
         }
 
-        .copyright {
-            width: 100%;
-            text-align: center;
+        .footer-bottom {
             padding-top: 2rem;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(255,255,255,0.2);
-            opacity: 0.7;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            opacity: 0.6;
             font-size: 0.9rem;
         }
 
-        /* Mobile Styles */
-        @media (max-width: 768px) {
-            header {
-                padding: 1rem;
-            }
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
 
-            nav {
-                gap: 1rem;
-            }
+        .social-links a {
+            color: white;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
 
-            nav a:not(.nav-cta) {
-                display: none;
-            }
+        .social-links a:hover {
+            opacity: 1;
+        }
 
-            .hero {
-                padding: 3rem 1.5rem;
-            }
-
-            .product-content {
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 900px) {
+            .steps-grid {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
+            .product-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
             .product-visual {
                 order: -1;
-                min-height: 300px;
-            }
-
-            .phone-mockup {
-                width: 160px;
-                height: 320px;
-            }
-
-            .phone-screen .grade {
-                font-size: 3rem;
+                min-height: 400px;
             }
 
             .blog-grid {
@@ -456,12 +712,42 @@
             }
 
             .footer-content {
-                flex-direction: column;
-                text-align: center;
+                grid-template-columns: 1fr;
+                gap: 2rem;
             }
 
-            .footer-links {
-                justify-content: center;
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 0.75rem 0;
+            }
+
+            nav a:not(.nav-cta) {
+                display: none;
+            }
+
+            .hero {
+                padding: 4rem 0;
+            }
+
+            .hero-logo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .phone-mockup {
+                width: 180px;
+                height: 360px;
+            }
+
+            .phone-screen .grade {
+                font-size: 4rem;
             }
         }
     </style>
@@ -469,13 +755,16 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="header-content">
+        <div class="container header-content">
             <a href="/" class="logo">
-                <div class="logo-icon">F</div>
-                <span class="logo-text">Fulcria Labs</span>
+                <img src="assets/images/logo-80.png" alt="Fulcria Labs Logo">
+                <div class="logo-text">
+                    <span class="logo-name">Fulcria Labs</span>
+                    <span class="logo-tagline">INNOVATE. CREATE. EXCEL.</span>
+                </div>
             </a>
             <nav>
-                <a href="https://swing.fulcria.com">Swing Analyzer</a>
+                <a href="#product">Products</a>
                 <a href="https://fulcria-labs.github.io">Blog</a>
                 <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
                 <a href="https://swing.fulcria.com" class="nav-cta">Try Free</a>
@@ -485,39 +774,81 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Building Smart Tools for Everyday Golfers</h1>
-            <p class="tagline">AI technology meets deep golf knowledge</p>
+        <div class="container hero-content">
+            <img src="assets/images/logo-400.png" alt="Fulcria Labs" class="hero-logo">
+            <h1>Building Smart Tools<br>for Everyday Golfers</h1>
+            <p class="tagline">AI Technology Meets Deep Golf Knowledge</p>
             <p>We combine artificial intelligence with a genuine love of the game to help golfers improve faster and have more fun doing it.</p>
-            <a href="https://swing.fulcria.com" class="cta-button">Try Swing Analyzer Free</a>
+            <a href="https://swing.fulcria.com" class="hero-cta">
+                Try Swing Analyzer Free
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Professional swing analysis in three simple steps</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Record Your Swing</h3>
+                    <p>Use any phone, any angle. No tripod, sensors, or special equipment needed.</p>
+                    <span class="step-time">10 seconds</span>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Analyzes</h3>
+                    <p>Our AI examines your swing mechanics, tempo, and form with professional-level detail.</p>
+                    <span class="step-time">60 seconds</span>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Get Your Grade</h3>
+                    <p>Receive letter grades, handicap estimate, and one focused tip to improve.</p>
+                    <span class="step-time">20 seconds</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Product Section -->
-    <section class="product-section">
-        <div class="product-content">
+    <section class="product-section" id="product">
+        <div class="container product-content">
             <div class="product-info">
                 <h2>Swing Analyzer</h2>
                 <p class="product-subtitle">Your AI Golf Coach in Your Pocket</p>
                 <p>Upload any swing video and get professional-level analysis in 90 seconds. No tripod needed. No waiting for results. Just instant, actionable feedback while the swing is still fresh in your mind.</p>
 
                 <ul class="features-list">
-                    <li><strong>90-Second Analysis</strong> - Get feedback while your swing is fresh</li>
-                    <li><strong>No Tripod Required</strong> - Works with any video from your camera roll</li>
-                    <li><strong>Fun Letter Grades</strong> - From A+ to F for every aspect of your swing</li>
-                    <li><strong>Handicap Guessing</strong> - AI predicts your skill level from swing mechanics</li>
-                    <li><strong>Actionable Tips</strong> - Clear suggestions to improve, not just data dumps</li>
+                    <li><strong>90-Second Analysis</strong> &mdash; Get feedback while your swing is fresh</li>
+                    <li><strong>No Tripod Required</strong> &mdash; Works with any video from your camera roll</li>
+                    <li><strong>Fun Letter Grades</strong> &mdash; From A+ to F for every aspect of your swing</li>
+                    <li><strong>Handicap Guessing</strong> &mdash; AI predicts your skill level from swing mechanics</li>
+                    <li><strong>Actionable Tips</strong> &mdash; Clear suggestions to improve, not data dumps</li>
                 </ul>
 
-                <a href="https://swing.fulcria.com" class="cta-button">Try Free</a>
+                <a href="https://swing.fulcria.com" class="hero-cta">
+                    Try Free
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
             </div>
 
             <div class="product-visual">
                 <div class="phone-mockup">
+                    <div class="phone-notch"></div>
                     <div class="phone-screen">
                         <div class="grade">B+</div>
                         <div class="score-label">Overall Swing Grade</div>
-                        <div class="analysis-time">Analyzed in 87 seconds</div>
+                        <div class="analysis-time">Analyzed in 87s</div>
                     </div>
                 </div>
             </div>
@@ -526,55 +857,101 @@
 
     <!-- Blog Section -->
     <section class="blog-section">
-        <div class="blog-content">
+        <div class="container">
             <div class="section-header">
                 <h2>Golf Tech Insights</h2>
                 <p>Tips, techniques, and technology to improve your game</p>
             </div>
 
             <div class="blog-grid">
-                <a href="https://fulcria-labs.github.io/instruction/2026/01/29/how-ai-analyzes-golf-swings.html" class="blog-card">
+                <a href="https://fulcria-labs.github.io/blog/how-ai-analyzes-golf-swings/" class="blog-card">
                     <h3>How AI Analyzes Golf Swings</h3>
-                    <p>Discover the technology behind AI swing analysis - from pose estimation to actionable feedback.</p>
+                    <p>Discover the technology behind AI swing analysis &mdash; from pose estimation to actionable feedback.</p>
                     <span class="read-more">Read more &rarr;</span>
                 </a>
 
-                <a href="https://fulcria-labs.github.io/instruction/2026/01/29/fix-slice-complete-guide.html" class="blog-card">
+                <a href="https://fulcria-labs.github.io/blog/fix-slice-complete-guide/" class="blog-card">
                     <h3>Fix Your Slice: The Complete Guide</h3>
                     <p>The slice is golf's most common miss. Here's exactly how to diagnose and fix yours for good.</p>
                     <span class="read-more">Read more &rarr;</span>
                 </a>
 
-                <a href="https://fulcria-labs.github.io/instruction/2026/01/30/golf-etiquette-essential-rules.html" class="blog-card">
-                    <h3>Golf Etiquette: 15 Essential Rules</h3>
-                    <p>The unwritten rules every golfer should know for a better experience on the course.</p>
+                <a href="https://fulcria-labs.github.io/blog/how-to-read-greens-complete-guide/" class="blog-card">
+                    <h3>How to Read Greens: Complete Guide</h3>
+                    <p>Master the art of green reading with professional techniques for better putting.</p>
                     <span class="read-more">Read more &rarr;</span>
                 </a>
             </div>
 
             <div class="view-all">
-                <a href="https://fulcria-labs.github.io">View all posts &rarr;</a>
+                <a href="https://fulcria-labs.github.io">
+                    View All 63 Articles
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
             </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <h2>Ready to Improve Your Swing?</h2>
+            <p>Join thousands of golfers getting AI-powered feedback. Free to try, no credit card required.</p>
+            <a href="https://swing.fulcria.com" class="hero-cta">
+                Get Started Free
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-info">
-                <h3>Fulcria Labs LLC</h3>
-                <p>AI-powered tools for golfers</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/logo-80.png" alt="Fulcria Labs">
+                    <h3>Fulcria Labs</h3>
+                    <p class="brand-tagline">Innovate. Create. Excel.</p>
+                    <p>Building AI-powered tools that help everyday golfers improve their game and have more fun on the course.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="https://swing.fulcria.com">Swing Analyzer</a></li>
+                        <li><a href="https://fulcria-labs.github.io">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a></li>
+                        <li><a href="mailto:eric.gaudet@fulcria.com">Contact</a></li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="footer-links">
-                <a href="https://swing.fulcria.com">Swing Analyzer</a>
-                <a href="https://fulcria-labs.github.io">Blog</a>
-                <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
-                <a href="mailto:eric.gaudet@fulcria.com">Contact</a>
-            </div>
-
-            <div class="copyright">
-                &copy; 2026 Fulcria Labs LLC. All rights reserved.
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 Fulcria Labs LLC. All rights reserved.
+                </div>
+                <div class="social-links">
+                    <a href="https://twitter.com/swingfulcria" target="_blank" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Fulcria-Labs" target="_blank" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
