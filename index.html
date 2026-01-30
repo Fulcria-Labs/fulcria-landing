@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulcria Labs - AI Golf Technology</title>
+    <meta name="description" content="Fulcria Labs builds AI-powered tools for golfers. Try Swing Analyzer for instant swing analysis in 90 seconds.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fulcria Labs - AI Golf Technology">
+    <meta property="og:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fulcria.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fulcria Labs - AI Golf Technology">
+    <meta name="twitter:description" content="Building smart tools for everyday golfers. AI swing analysis in 90 seconds.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%231a472a'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white' font-family='system-ui'%3EF%3C/text%3E%3C/svg%3E">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a472a;
+            --primary-light: #2d5a3d;
+            --accent: #4CAF50;
+            --accent-hover: #43a047;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            background: var(--bg);
+        }
+
+        /* Header */
+        header {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: var(--primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .nav-cta {
+            background: var(--accent);
+            color: white !important;
+            padding: 0.5rem 1.25rem;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .nav-cta:hover {
+            background: var(--accent-hover);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            opacity: 0.95;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        /* Product Section */
+        .product-section {
+            padding: 5rem 2rem;
+            background: var(--white);
+        }
+
+        .product-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .product-info h2 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .product-info p {
+            margin-bottom: 2rem;
+            color: var(--text);
+            font-size: 1.1rem;
+        }
+
+        .features-list {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .features-list li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            font-size: 1.05rem;
+        }
+
+        .features-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        .product-visual {
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+            border-radius: 16px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .phone-mockup {
+            width: 200px;
+            height: 400px;
+            background: #1e293b;
+            border-radius: 30px;
+            padding: 10px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+        }
+
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, var(--primary) 0%, var(--primary-light) 100%);
+            border-radius: 22px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .phone-screen .grade {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .phone-screen .score-label {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        .phone-screen .analysis-time {
+            margin-top: 2rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255,255,255,0.15);
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        /* Blog Section */
+        .blog-section {
+            padding: 5rem 2rem;
+            background: var(--bg);
+        }
+
+        .blog-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.75rem;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            border: 1px solid var(--border);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+        }
+
+        .blog-card h3 {
+            font-size: 1.15rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+
+        .blog-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .blog-card .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .view-all {
+            text-align: center;
+        }
+
+        .view-all a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .view-all a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-info {
+            opacity: 0.9;
+        }
+
+        .footer-info h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        .copyright {
+            width: 100%;
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            nav a:not(.nav-cta) {
+                display: none;
+            }
+
+            .hero {
+                padding: 3rem 1.5rem;
+            }
+
+            .product-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .product-visual {
+                order: -1;
+                min-height: 300px;
+            }
+
+            .phone-mockup {
+                width: 160px;
+                height: 320px;
+            }
+
+            .phone-screen .grade {
+                font-size: 3rem;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">
+                <div class="logo-icon">F</div>
+                <span class="logo-text">Fulcria Labs</span>
+            </a>
+            <nav>
+                <a href="https://swing.fulcria.com">Swing Analyzer</a>
+                <a href="https://fulcria-labs.github.io">Blog</a>
+                <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
+                <a href="https://swing.fulcria.com" class="nav-cta">Try Free</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Building Smart Tools for Everyday Golfers</h1>
+            <p class="tagline">AI technology meets deep golf knowledge</p>
+            <p>We combine artificial intelligence with a genuine love of the game to help golfers improve faster and have more fun doing it.</p>
+            <a href="https://swing.fulcria.com" class="cta-button">Try Swing Analyzer Free</a>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="product-content">
+            <div class="product-info">
+                <h2>Swing Analyzer</h2>
+                <p class="product-subtitle">Your AI Golf Coach in Your Pocket</p>
+                <p>Upload any swing video and get professional-level analysis in 90 seconds. No tripod needed. No waiting for results. Just instant, actionable feedback while the swing is still fresh in your mind.</p>
+
+                <ul class="features-list">
+                    <li><strong>90-Second Analysis</strong> - Get feedback while your swing is fresh</li>
+                    <li><strong>No Tripod Required</strong> - Works with any video from your camera roll</li>
+                    <li><strong>Fun Letter Grades</strong> - From A+ to F for every aspect of your swing</li>
+                    <li><strong>Handicap Guessing</strong> - AI predicts your skill level from swing mechanics</li>
+                    <li><strong>Actionable Tips</strong> - Clear suggestions to improve, not just data dumps</li>
+                </ul>
+
+                <a href="https://swing.fulcria.com" class="cta-button">Try Free</a>
+            </div>
+
+            <div class="product-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="grade">B+</div>
+                        <div class="score-label">Overall Swing Grade</div>
+                        <div class="analysis-time">Analyzed in 87 seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="blog-content">
+            <div class="section-header">
+                <h2>Golf Tech Insights</h2>
+                <p>Tips, techniques, and technology to improve your game</p>
+            </div>
+
+            <div class="blog-grid">
+                <a href="https://fulcria-labs.github.io/instruction/2026/01/29/how-ai-analyzes-golf-swings.html" class="blog-card">
+                    <h3>How AI Analyzes Golf Swings</h3>
+                    <p>Discover the technology behind AI swing analysis - from pose estimation to actionable feedback.</p>
+                    <span class="read-more">Read more &rarr;</span>
+                </a>
+
+                <a href="https://fulcria-labs.github.io/instruction/2026/01/29/fix-slice-complete-guide.html" class="blog-card">
+                    <h3>Fix Your Slice: The Complete Guide</h3>
+                    <p>The slice is golf's most common miss. Here's exactly how to diagnose and fix yours for good.</p>
+                    <span class="read-more">Read more &rarr;</span>
+                </a>
+
+                <a href="https://fulcria-labs.github.io/instruction/2026/01/30/golf-etiquette-essential-rules.html" class="blog-card">
+                    <h3>Golf Etiquette: 15 Essential Rules</h3>
+                    <p>The unwritten rules every golfer should know for a better experience on the course.</p>
+                    <span class="read-more">Read more &rarr;</span>
+                </a>
+            </div>
+
+            <div class="view-all">
+                <a href="https://fulcria-labs.github.io">View all posts &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Fulcria Labs LLC</h3>
+                <p>AI-powered tools for golfers</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://swing.fulcria.com">Swing Analyzer</a>
+                <a href="https://fulcria-labs.github.io">Blog</a>
+                <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
+                <a href="mailto:eric.gaudet@fulcria.com">Contact</a>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 Fulcria Labs LLC. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
