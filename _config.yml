@@ -1,0 +1,39 @@
+# Fulcria.com Jekyll Configuration
+title: Fulcria Labs
+description: Technology that matters
+url: https://fulcria.com
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+future: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Posts will be output to /blog/
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      author: Fulcria Labs
+      permalink: /blog/:slug/
+
+# Exclude files from Jekyll processing
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
+# Keep the landing page HTML intact
+keep_files:
+  - assets
+
+# Social
+twitter:
+  username: swinganalyzer
