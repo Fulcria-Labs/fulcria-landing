@@ -33,5 +33,5 @@ Just open `index.html` in a browser. No build step required.
 ## Links
 
 - **Swing Analyzer**: https://swing.fulcria.com
-- **Blog**: https://fulcria-labs.github.io
+- **Blog**: https://fulcria.com/blog
 - **GitHub**: https://github.com/Fulcria-Labs
