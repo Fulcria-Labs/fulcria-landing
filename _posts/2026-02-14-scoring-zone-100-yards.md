@@ -8,6 +8,22 @@ categories:
 description: Drop strokes by mastering shots inside 100 yards. Learn distance control,
   wedge selection, and practice drills for the scoring zone.
 author: Swing Analyzer Team
+tags:
+- scoring zone
+- wedge play
+- short game
+- distance control
+- golf practice
+image: /assets/images/scoring-zone-100-yards.png
+keywords:
+- scoring zone golf
+- 100 yards in golf
+- wedge play tips
+- golf wedge distance control
+- short game scoring
+seo:
+  title: "Master the Scoring Zone: Attack from 100 Yards In"
+  description: Drop strokes by mastering shots inside 100 yards. Learn wedge distance control, trajectory, and practice drills for the scoring zone.
 ---
 
 # Master the Scoring Zone: How to Attack from 100 Yards and In
@@ -25,7 +41,7 @@ Consider where your strokes actually go. Most golfers obsess over driver distanc
 - **Driving**: You hit driver 14 times per round
 - **Scoring zone**: You hit wedges and short irons 20-25 times per round
 
-Even small improvements in wedge play compound quickly. Getting 5 feet closer on 10 approach shots? That's potentially 3-4 saved strokes per round.
+Even small improvements in wedge play compound quickly. Getting 5 feet closer on 10 approach shots? That's potentially 3-4 saved strokes per round. Combined with [fewer three-putts](/blog/stop-three-putting-distance-control-drills/), you could be looking at a five-stroke improvement without changing your full swing.
 
 Yet most golfers spend 80 percent of practice time hitting driver and long irons. The practice time allocation is exactly backwards.
 
@@ -214,17 +230,13 @@ Many golfers have wrong bounce for their courses. If you're digging into soft tu
 
 Wedge shafts should promote consistency, not distance. Many golfers use the same shafts in their wedges as their irons, which works. Some prefer slightly heavier wedge shafts for added control.
 
-Whatever you choose, keep it consistent across your wedge set.
+Whatever you choose, keep it consistent across your wedge set. For a deeper dive into dialing in your yardages, see our [wedge distance control guide](/blog/wedge-distance-control-guide/).
 
 ## Using Technology to Improve
 
 ### Video Analysis
 
-Recording your wedge swings reveals issues you can't feel. Use [Swing Analyzer](https://swing.fulcria.com) to check:
-
-- Backswing length at different distances
-- Whether your tempo stays consistent
-- Impact position and body rotation
+Recording your wedge swings reveals issues you can't feel. [Swing Analyzer](https://swing.fulcria.com) gives you AI-powered feedback in 90 seconds, measuring your tempo, backswing length, and body rotation so you can see exactly what changes between your full swing and your three-quarter swing. It is the fastest way to build consistent wedge distances.
 
 What you think you're doing and what you're actually doing rarely match. Video doesn't lie.
 
@@ -277,6 +289,6 @@ Master these fundamentals:
 3. **Control distance with your body**, not your hands
 4. **Practice with purpose**, not mindlessly hitting balls
 
-Spend 50 percent of your practice time inside 100 yards. It's not as satisfying as bombing drivers, but it's where scores actually drop.
+Spend 50 percent of your practice time inside 100 yards. It's not as satisfying as bombing drivers, but it's where scores actually drop. If you are working toward a specific scoring goal, our guides on [how to break 90](/blog/how-to-break-90-golf/) and [how to break 100](/blog/how-to-break-100-golf/) lay out the full game plan.
 
 The next time you're standing in the fairway with an 80-yard approach, you should feel confident. Pick your landing spot, trust your swing, and attack the pin. That's how golf is supposed to feel.

@@ -112,7 +112,7 @@ If you want to drop strokes fast, the answer is not on the driving range. It is 
 
 **Why short game matters so much for breaking 100:**
 
-Most golfers shooting over 100 are not hitting many greens in regulation. That means nearly every hole involves a chip or pitch shot. If those shots consistently leave you 15-20 feet from the hole instead of 5-6 feet, you are adding strokes all day long.
+Most golfers shooting over 100 are not hitting many greens in regulation. That means nearly every hole involves a chip or pitch shot. If those shots consistently leave you 15-20 feet from the hole instead of 5-6 feet, you are adding strokes all day long. Our guide to [stop three-putting with distance control drills](/blog/stop-three-putting-distance-control-drills/) can help you eliminate those wasted strokes on the green.
 
 Additionally, three-putts are score killers. Every three-putt costs you a stroke you cannot get back. If you three-putt six times per round, that alone is the difference between 102 and 96.
 
@@ -185,7 +185,7 @@ The key is consistency. Use the same routine for your driver, your wedges, and y
 
 ## Bonus: Use Video to Find Your Weak Spots
 
-Here is something that accelerates improvement: you cannot fix what you cannot see.
+Here is something that accelerates improvement: you cannot fix what you cannot see. Many golfers do not even realize they are making [the most common swing mistakes](/blog/common-golf-swing-mistakes/) until they watch themselves on video.
 
 Most golfers have no idea what their swing actually looks like. They feel like they are making a full turn, but video shows they are barely rotating. They think they are hitting down on the ball, but video reveals they are scooping.
 
