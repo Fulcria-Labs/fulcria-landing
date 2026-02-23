@@ -4,19 +4,28 @@ title: 'How to Fix an Over-the-Top Golf Swing: Causes and Drills That Work'
 date: 2026-01-30
 author: Swing Analyzer Team
 description: Stop slicing and pulling shots with this complete guide to fixing your
-  over-the-top golf swing. Learn the root causes and 7 proven drills to get your club
+  over-the-top golf swing. Learn the root causes and 10 proven drills to get your club
   on the right path.
 keywords: over the top golf swing, fix over the top, golf swing path, stop slicing,
-  coming over the top, golf downswing drills
+  coming over the top, golf downswing drills, over the top swing fix, stop coming over the top
 categories:
 - instruction
 - swing-fixes
+tags:
+- over the top
+- swing faults
+- slice fix
+- swing path
+- drills
+- fundamentals
 image: /assets/images/fix-over-the-top-golf-swing.png
+redirect_from:
+  - /blog/over-the-top-fix/
 seo:
-  title: 'How to Fix an Over-the-Top Golf Swing: Causes and Drills That Work'
+  title: 'How to Fix an Over-the-Top Golf Swing: Causes and 10 Proven Drills'
   description: Stop slicing and pulling shots with this complete guide to fixing your
-    over-the-top golf swing. Learn the root causes and 7 proven drills to get your
-    club on the right path.
+    over-the-top golf swing. Learn the root causes, why quick fixes fail, and 10 proven drills
+    to get your club on the right path.
 ---
 
 The over-the-top move is the #1 swing flaw among amateur golfers. It causes slices, pulls, weak contact, and endless frustration. But here's the good news: it's fixable with the right understanding and drills.
@@ -52,7 +61,27 @@ An excessively "cupped" wrist at the top can preset an over-the-top path. The cl
 ### 5. Wrong Mental Picture
 Many golfers think they need to hit "down" on the ball, which creates a steep, outside attack. The reality is the club should approach from inside.
 
-## 7 Drills to Fix Over the Top
+### Hidden Causes in Your Setup
+
+Before diving into swing fixes, check these setup issues that can force an over-the-top move:
+
+**Poor Alignment**: Many golfers who fight an over-the-top swing are actually aiming their body far to the right of the target. When your feet, hips, and shoulders point right, your brain senses the ball will go right, so it forces an over-the-top move to pull the shot back online. Ironically, this compensation creates the exact slice you were trying to avoid.
+
+**Grip Issues**: A weak grip (hands rotated too far left on the club) makes it difficult to close the face through impact. Your brain knows the face will be open, so it steepens the swing to compensate.
+
+**Ball Position**: Playing the ball too far forward encourages an outside-in path because you are reaching for the ball at impact.
+
+**Tension and Rushing**: Gripping too tight or rushing the transition creates tension in your shoulders, which triggers the over-the-top move. Your big muscles take over when they should be quiet.
+
+## Why Quick Fixes Do Not Work
+
+You have probably tried these: "Drop your hands at the top." "Swing from the inside." "Feel like you are swinging to right field."
+
+These tips address symptoms, not causes. Your brain will always revert to the over-the-top pattern under pressure because it is trying to do what feels powerful. The real fix requires changing your sequencing and tempo, teaching your body a new pattern that feels natural under pressure.
+
+The drills below build that new pattern from the ground up.
+
+## 10 Drills to Fix Over the Top
 
 ### 1. Headcover Drill
 
@@ -118,6 +147,32 @@ This is one of the simplest fixes—sometimes a setup change is all you need.
 
 **Why it works:** The pause breaks the habit of rushing from the top with your arms. It gives you time to feel the lower body initiate.
 
+### 8. Right Pocket Drill
+
+**Setup:** Normal address position.
+
+**Execution:** Imagine you have a string attached from the butt end of the club to your right pants pocket. On the downswing, feel like that string is pulling the club toward your pocket before it releases toward the ball.
+
+**Why it works:** Creates the sensation of shallowing the club without thinking about swing path directly. This exaggerated feeling of the club dropping behind you counteracts the over-the-top tendency.
+
+### 9. The Motorcycle Drill
+
+**Setup:** Take your normal grip and make a backswing. At the top, pause and focus on your lead wrist.
+
+**Execution:** From the top of your backswing, imagine you are revving a motorcycle throttle with your lead hand. This motion flexes your lead wrist (bows it toward the target) and closes the clubface. Feel this flexion as you start the downswing.
+
+**Why it works:** When your lead wrist moves into flexion, it closes the clubface and puts the club in position to approach from the inside. An over-the-top swing typically features an extended (cupped) lead wrist that opens the face and steepens the path.
+
+### 10. The Loop Drill
+
+**Setup:** Take your normal address position with any mid-iron.
+
+**Execution:** Make a backswing, but as you start down, deliberately loop the club to the inside. Feel like you are dropping the clubhead behind you before swinging out to the ball. Exaggerate the sensation of swinging from inside-to-out, as if you are trying to hit the ball to right field.
+
+**Progression:** Start with half swings at half speed. The loop will feel excessive at first, but that is the point. Gradually reduce the exaggeration as the inside path becomes more natural.
+
+**Why it works:** If your normal pattern is over the top, the opposite pattern is to loop under. By practicing the extreme opposite move, you recalibrate your sense of what normal should feel like. What feels like an inside-out swing is probably actually straight.
+
 ## The Fix in Practice
 
 When working on your over-the-top move:
@@ -145,6 +200,25 @@ The over-the-top move and the slice are closely related, but not identical. You 
 One of the best ways to track your progress is recording your swing from down the line. This angle clearly shows whether your club is dropping inside or thrown outside. [Learn how to record your swing](/blog/how-to-record-golf-swing-phone/) for accurate self-analysis.
 
 Modern apps like Swing Analyzer can trace your club path and show you exactly where the over-the-top move happens, making it easier to target your practice.
+
+## The Tempo Connection
+
+Fast backswings almost always lead to over-the-top moves. Your body cannot complete proper sequencing if you are rushing. Try counting "1-2-3" during your backswing and "4" at impact. Most amateurs are at "2" by impact. Slow down your takeaway and give yourself time to complete the pattern. For more on this, see our [guide to golf swing rhythm and tempo](/blog/golf-swing-rhythm/).
+
+## What to Expect
+
+Fixing an over-the-top swing takes time. You have probably been doing it for years or decades. Here is a realistic timeline:
+
+- **Weeks 1-2:** The new moves feel awkward and exaggerated. Use drills 1-3 (headcover, trail foot flare, hip bump).
+- **Weeks 3-4:** You start making better contact in practice. Add the step drill and right pocket drill for sequencing.
+- **Month 2:** The new pattern becomes more natural. Incorporate the motorcycle and loop drills for advanced path and face control.
+- **Month 3 and beyond:** You can trust the new pattern under pressure on the course.
+
+The key is patience. Practice the drills in slow motion until they feel natural, then gradually add speed.
+
+## Related: Fix Your Out-to-In Swing Path
+
+The over-the-top move and an out-to-in swing path are closely related but not identical. If you want to dive deeper into swing path mechanics and targeted drills, read our companion guide on [how to fix an out-to-in swing path](/blog/fix-out-to-in-swing-path/).
 
 ## Summary
 

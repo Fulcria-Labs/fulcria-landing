@@ -1,23 +1,42 @@
 ---
 layout: post
 title: 'How to Fix a Golf Hook: 7 Proven Drills and Fixes'
-description: Stop hooking the ball with these 7 proven fixes. Learn why you hook,
-  common causes, and drills that work for snap hooks and draws that won't stop curving.
+description: Stop hooking the ball with these proven fixes. Learn the 7 most common causes,
+  drills that work for snap hooks and draws that won't stop curving, and how to turn your hook into a controlled draw.
 date: 2026-01-30 15:00:00 -0500
 categories: instruction
 featured_image: /assets/images/fix-golf-hook.png
+tags:
+- hook fix
+- ball flight
+- grip
+- swing path
+- golf instruction
+- swing fixes
+- draw
+keywords:
+- how to fix a hook in golf
+- golf hook fix
+- stop hooking golf ball
+- fix hook shot golf
+- why do i hook the golf ball
+- fix golf hook
+redirect_from:
+  - /blog/how-to-fix-a-hook-in-golf/
 seo:
-  title: 'How to Fix a Golf Hook: 7 Proven Drills and Fixes'
-  description: Stop hooking the ball with these 7 proven fixes. Learn why you hook,
-    common causes, and drills that work for snap hooks and draws that won't stop curving.
+  title: 'How to Fix a Golf Hook: Causes, Drills, and the Path to a Controlled Draw'
+  description: Stop hooking the ball with proven fixes. Learn 7 common causes, targeted
+    drills for snap hooks and draws that won't stop curving, and how to turn your hook into a weapon.
 image: /assets/images/fix-golf-hook.png
 ---
 
 # How to Fix a Golf Hook: 7 Proven Drills and Fixes
 
-A hook might feel better off the clubface than a slice—at least you're hitting it solid—but a ball that starts right and dives left into the trees is just as costly as one that slices the other way.
+Here is something most people will not tell you: if you are hooking the ball, you are a better golfer than someone who slices. That might not feel true when your tee shot dives left into the trees. But hooks happen because you are doing some things right: you are rotating through the ball, creating clubhead speed, and releasing the club. You are just doing them a little too much.
 
-The frustrating part? Many golfers develop a hook *after* they've fixed their slice, turning one problem into another. Let's break down why hooks happen and how to straighten them out.
+A hook might feel better off the clubface than a slice, but a ball that starts right and dives left into the trees is just as costly as one that slices the other way. The frustrating part? Many golfers develop a hook *after* they have fixed their slice, turning one problem into another.
+
+The good news: the swing that creates a hook, once refined, becomes a consistent draw. Let us break down why hooks happen and how to straighten them out.
 
 ## What Causes a Golf Hook?
 
@@ -92,7 +111,23 @@ Grip pressure that's too tight causes the forearms to activate, rotating the fac
 
 **The fix**: Lighten your grip, especially with the trail hand. Sam Snead's famous advice: hold the club like you're holding a small bird.
 
-## 7 Drills to Fix Your Hook
+### 8. Early Release (Casting)
+
+Early release causes the hands to pass the clubhead too early, resulting in a closed face at impact. Paradoxically, the player trying to "hit" the ball actually hooks it because the club has released all its lag before impact.
+
+**Check yourself**: Record your swing from face-on. At impact, the shaft should be leaning forward (toward the target). If it is leaning backward, you are casting.
+
+**The fix**: Feel like you are pulling the grip end of the club through impact, not throwing the clubhead. The hands should lead the clubhead through the hitting zone. Our [guide to creating lag](/blog/creating-lag-golf-swing/) covers this in detail.
+
+### 9. Poor Weight Transfer
+
+Hanging back on the rear foot causes the club to pass the body too quickly, closing the face. Proper weight transfer keeps the body rotating ahead of the arms.
+
+**Check yourself**: After impact, check your finish position. If you are still on your back foot or falling backward, you are hanging back.
+
+**The fix**: Feel your weight shift toward the target as you start the downswing. By impact, 80 percent of your weight should be on your front foot. Read our [weight transfer guide](/blog/golf-weight-transfer-guide/) for a deeper dive.
+
+## Drills to Fix Your Hook
 
 ### Drill 1: The Split-Grip Drill
 
@@ -142,6 +177,42 @@ At impact, focus on the butt of the club pointing at your belt buckle, not behin
 
 **Why it works**: Maintains proper shaft angle through impact, preventing flip.
 
+### Drill 8: 9-to-3 Swings
+
+Make swings from 9 o'clock to 3 o'clock only. Focus on keeping the face square through this zone. Hands should be slightly ahead of the clubhead at 6 o'clock (impact).
+
+**Why it works**: This abbreviated swing removes the variables that cause hooks and lets you focus purely on face control through the hitting zone.
+
+### Drill 9: Step Drill for Weight Transfer
+
+Take your normal stance. On the downswing, step forward with your front foot as if walking toward the target. Hit the ball while stepping. This forces proper weight transfer and prevents hanging back.
+
+**Why it works**: When your lower body leads, the face stays more stable and your body rotates properly ahead of your arms.
+
+### Drill 10: The Punch Shot Drill
+
+Take a three-quarter backswing and finish with your hands at chest height. This limits the time your hands have to rotate and promotes a more stable face through impact.
+
+**Why it works**: Less swing length means less opportunity for the hands to flip. This drill ingrains the feeling of body-controlled face stability.
+
+## From Hook to Controlled Draw
+
+The goal is not to eliminate curve entirely. A controlled draw, where the ball starts slightly right and curves back to target, is often called the ideal ball flight. It maximizes distance, rides the wind well, and rolls out on landing.
+
+You already have the building blocks for this shot. Your release is active. Your path moves in-to-out. You just need to reduce the extremes. When your grip is neutral, your ball position is forward, your alignment is square, your hands are quiet, your path is moderate, and your body rotates fully, the hook becomes a draw. Same swing, refined.
+
+## Quick Fixes on the Course
+
+When a hook shows up mid-round, you do not have time for swing changes. Here are quick adjustments:
+
+- **Weaken your grip slightly.** Even a small rotation can neutralize the face.
+- **Move the ball forward an inch.** Gives the face more time to open before impact.
+- **Swing at 80 percent.** Slower swings give you more control over face and path.
+- **Think "hold the face open."** Feel like you are keeping the logo on your glove pointing skyward longer through impact.
+- **Take less club and swing easier.** Aggressive swings promote hooks.
+
+These are not permanent fixes. They are bandages that keep your score together until you can work on the range.
+
 ## Common Mistakes When Fixing a Hook
 
 ### Don't Weaken Your Grip Too Much
@@ -166,15 +237,30 @@ Recording your swing reveals what you can't feel:
 
 [Recording your swing with your phone](/blog/phone-golf-swing-video/) takes 30 seconds and shows exactly why you're hooking.
 
+## Practice Plan
+
+**Week 1:** Focus on grip and hand position. Hit 50 balls daily with your adjusted grip. Use the neutral grip check and split-grip drills.
+
+**Week 2:** Add the pump and punch shot drills. Feel the quiet hands through impact.
+
+**Week 3:** Introduce the gate drill and 9-to-3 swings. Work on path awareness and face control together.
+
+**Week 4:** Combine everything. Hit draws intentionally, controlling the curve. Track how many out of 10 balls produce a controlled draw versus a hook.
+
 ## When to See a Professional
 
 If you've tried these fixes for 3-4 practice sessions without improvement:
 
 - A lesson can identify your specific hook cause in minutes
-- Equipment fitting might reveal ill-fitted clubs (lie angle, shaft flex)
-- Custom fitting ensures your fixes aren't fighting your equipment
+- Equipment fitting might reveal ill-fitted clubs that are contributing to the problem
 
-[When is it time for lessons?](/blog/golf-lesson-frequency/)
+A hook can also be caused by equipment issues:
+
+- **Clubs too flat** (lie angle promotes a closed face at impact)
+- **Shaft too weak** (causing excessive face rotation through the hitting zone)
+- **Grips too small** (promoting grip pressure changes and overactive hands)
+
+A PGA professional can identify whether your hook is technique-based or equipment-based. [When is it time for lessons?](/blog/golf-lesson-frequency/)
 
 ## Quick Reference: Hook Fix Checklist
 

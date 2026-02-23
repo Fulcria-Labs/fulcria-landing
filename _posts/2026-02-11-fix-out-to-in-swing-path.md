@@ -195,3 +195,9 @@ Use these drills consistently: Headcover Gate, Step Drill, Right Arm Only, Wall 
 Change happens with focused practice over weeks, not days. Film yourself regularly and track improvement.
 
 Your straighter, more powerful ball flight is waiting on the other side of a better swing path.
+
+For a broader look at the over-the-top move that often causes an out-to-in path, see our [complete guide to fixing the over-the-top golf swing](/blog/fix-over-the-top-golf-swing/).
+
+---
+
+*Want to see your actual swing path? [Swing Analyzer](https://swing.fulcria.com) measures your club path in degrees and shows you exactly whether you are swinging out-to-in, in-to-out, or neutral. Get AI-powered feedback in 90 seconds.*
