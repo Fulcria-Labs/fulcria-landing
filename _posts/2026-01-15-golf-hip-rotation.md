@@ -13,9 +13,17 @@ tags:
 - power
 - swing mechanics
 - drills
+keywords:
+- golf hip rotation
+- hip rotation drills golf
+- hip turn golf swing
+- golf hip rotation power
+- how to rotate hips in golf swing
+- hip rotation golf drill
+- increase hip speed golf
 seo:
-  title: Golf Hip Rotation | The Power Move You're Probably Missing
-  description: Understand how proper hip rotation creates power and fixes common swing faults. Includes 3 drills to improve your hip turn.
+  title: 'Golf Hip Rotation: Drills for More Power & Consistency'
+  description: Master golf hip rotation with proven drills for more power and consistency. Learn proper hip turn, avoid sliding, and add distance to every club in your bag.
 ---
 
 ![Golf Hip Rotation](/assets/images/golf-hip-rotation.png)
@@ -66,7 +74,7 @@ Many golfers restrict hip turn because their feet are square. Try flaring your t
 
 Here's the hard truth: some golfers physically can't rotate their hips properly because of limited mobility. Tight hip flexors, weak glutes, or general inflexibility create a ceiling on your swing.
 
-Before blaming technique, check your mobility. Can you turn your hips 45 degrees comfortably? If not, stretching and mobility work will help your game more than any swing tip.
+Before blaming technique, check your mobility. Can you turn your hips 45 degrees comfortably? If not, stretching and mobility work will help your game more than any swing tip. Once you improve your mobility, [track your progress with Swing Analyzer](https://swing.fulcria.com) to see how your hip angles change over time.
 
 ## The Connection to Ball Compression
 
@@ -84,6 +92,6 @@ The hips need to lead, but not too early. Think of a 3-count rhythm:
 
 If your hips get to position 3 before your arms get to position 2, you're out of sync.
 
-An AI swing analyzer can detect hip rotation angles and timing automatically. It's one of the most telling metrics for swing efficiency.
+[Swing Analyzer](https://swing.fulcria.com) can detect your hip rotation angles and timing automatically -- it is one of the most telling metrics for swing efficiency.
 
 **Find out if your hips are costing you yards - [get your swing analyzed in 90 seconds with Swing Analyzer](https://swing.fulcria.com).**

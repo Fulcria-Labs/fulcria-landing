@@ -13,8 +13,8 @@ keywords:
 - fix hook shot golf
 - why do i hook the golf ball
 seo:
-  title: "How to Fix a Hook in Golf: 5 Causes & Fixes"
-  description: Stop hooking the golf ball with these 5 proven fixes. Learn what causes a hook and how to turn it into a controlled draw.
+  title: "How to Fix a Hook in Golf: 5 Causes & Proven Drills"
+  description: "Stop hooking the golf ball with 5 proven fixes and drills. Learn what causes a hook -- grip, path, weight transfer -- and turn it into a controlled draw."
 ---
 
 A hook is one of the most frustrating shots in golf. That low, curving ball that starts right and violently curves left (for right-handed golfers) often ends up in trouble far worse than where you were aiming. Unlike a slice, which loses distance, a hook runs hot and often travels further into trouble.
@@ -88,12 +88,14 @@ Feel like the club works more "up and around" rather than "flat and inside" on t
 3. Practice swinging through the gate
 4. This promotes a straighter, more neutral path
 
+Not sure if your path is the problem? [Upload a swing to Swing Analyzer](https://swing.fulcria.com) and get your swing path measured in 90 seconds.
+
 ## Fix #4: Maintain Your Lag
 
 Early release (casting) causes the hands to pass the clubhead too early, resulting in a closed face at impact. Paradoxically, the player trying to "hit" the ball actually hooks it.
 
 **The Test:**
-Record your swing from face-on. At impact, check if the shaft is leaning forward (toward the target) or backward. If backward, you're casting.
+Record your swing from face-on, or [use Swing Analyzer](https://swing.fulcria.com) to get frame-by-frame analysis with shaft lean measurements. At impact, check if the shaft is leaning forward (toward the target) or backward. If backward, you're casting.
 
 **The Fix:**
 Feel like you're pulling the grip end of the club through impact, not throwing the clubhead. The hands should lead the clubhead through the hitting zone.
