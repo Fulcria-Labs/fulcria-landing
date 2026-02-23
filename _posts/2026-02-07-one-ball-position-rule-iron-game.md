@@ -17,6 +17,9 @@ tags:
 seo:
   title: "The One Ball Position Rule That Simplifies Your Iron Game"
   description: "Stop guessing where to put the ball. Learn the one ball position rule that creates consistent iron contact for every club in your bag."
+redirect_from:
+  - /blog/ball-position-rule/
+  - /blog/ball-position-rule-simplify-iron-game/
 ---
 
 Here's a question: before your last round, how many times did you second-guess your ball position? Was the 7-iron supposed to be center? Slightly forward? Did you move it and then wonder if you moved it too much?
