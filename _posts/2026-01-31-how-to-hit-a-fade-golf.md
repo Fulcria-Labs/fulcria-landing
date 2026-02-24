@@ -17,6 +17,8 @@ tags:
 seo:
   title: How to Hit a Fade in Golf - Complete Guide
   description: Master the fade shot with our complete guide. Learn grip, alignment, swing path adjustments, and practice drills for reliable left-to-right ball flight.
+redirect_from:
+  - /blog/how-to-hit-a-fade/
 ---
 
 The fade is golf's most reliable shot shape. That gentle left-to-right curve (for right-handed golfers) has been the go-to shot for legends like Ben Hogan, Jack Nicklaus, and Lee Trevino. There's a reason they trusted it under pressure.
@@ -47,6 +49,17 @@ Neither is inherently superior. Both have their place.
 - Helps navigate certain hole shapes
 
 Most amateurs should learn both, but many find the fade easier to repeat. The slightly open face at impact is more forgiving than the closed face required for a draw. For a complete comparison and guidance on the draw, see our [how to hit a draw guide](/blog/how-to-hit-a-draw-golf/).
+
+Understanding how the fade relates to other shot shapes is also useful:
+
+| Shot | Path | Face Relative to Path | Result |
+|------|------|----------------------|--------|
+| Fade | Out-to-in | Open to path | Starts slightly left, curves right |
+| Slice | Out-to-in | Wide open to target | Starts left or straight, curves far right |
+| Straight | Neutral | Square | Starts at target, stays straight |
+| Draw | In-to-out | Slightly closed | Starts right, curves left |
+
+The fade lives between a straight shot and a slice. The difference between a well-executed fade and a slice is just a matter of degree.
 
 ## The Physics Behind the Fade
 
@@ -203,6 +216,12 @@ Make swings that stop at 9 o'clock in the follow-through (club pointing at the t
 At this checkpoint, examine your clubface. Is it pointing slightly toward the sky? That's a fade position. Is it pointing at the ground? That's a draw or hook position.
 
 This drill builds awareness of face position through impact without the chaos of a full finish.
+
+### Drill 5: The 50% Fade Drill
+
+Start by hitting small, controlled fades — just 5-10 yards of curve — with short irons. Commit fully to the open setup and swing path but keep the swing smooth. Once you can produce a consistent mini-fade, gradually work up to full swings and longer clubs.
+
+This progressive approach stops you from overdoing the out-to-in path. Many golfers start hitting pull-cuts instead of proper fades because they swing too aggressively across the ball. Build the shape small first, then scale it up.
 
 ## Hitting a Fade With Driver vs. Irons
 

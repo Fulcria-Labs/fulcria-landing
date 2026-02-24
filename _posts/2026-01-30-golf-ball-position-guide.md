@@ -144,6 +144,10 @@ Your hands naturally hang at the center of your stance. If the ball is forward o
 
 This works great for mid-round adjustments when you cannot lay down alignment sticks.
 
+### The Club Shaft Check
+
+Drop a club shaft from the center of your chest while in your address position. Where it lands relative to the ball shows your actual ball position. This accounts for stance width changes and gives you a more reliable reference than eyeballing the ball against your feet alone.
+
 ## Ball Position for Special Situations
 
 Standard positions work for flat lies and normal conditions. But golf rarely gives you perfect circumstances.
@@ -169,6 +173,29 @@ Combine this with a shorter backswing and smooth tempo. Fighting the wind with a
 ### Tight Lies
 
 On hardpan or tight lies where there is no grass cushion, play the ball slightly back of your normal position. This steeper angle of attack helps you catch the ball cleanly without bouncing the club off the hard surface.
+
+## Ball Position and Ball Flight
+
+Ball position affects more than contact quality — it shapes your entire ball flight.
+
+| Ball position | Launch | Spin | Tendency |
+|---------------|--------|------|----------|
+| Forward | Higher | Less | Promotes draw; can open face |
+| Center | Normal | Normal | Neutral ball flight |
+| Back | Lower | More | Promotes fade; delofts club |
+
+If you are hitting consistent pulls or draws, check whether the ball has crept too far forward. Pushes and fades often trace back to a ball that has drifted too far back.
+
+## The Three-Ball Test Drill
+
+Use this at the range to calibrate your positions:
+
+1. With a 7-iron, hit three balls from your normal position
+2. Move the ball two inches forward and hit three more
+3. Move the ball two inches back from normal and hit three more
+4. Compare contact quality, trajectory, and dispersion
+
+Most golfers are surprised how much difference two inches makes. This test builds awareness of position sensitivity and helps you find your personal ideal position for each club.
 
 ## Building Your Pre-Shot Routine
 
