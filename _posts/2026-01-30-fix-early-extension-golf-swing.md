@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 'How to Fix Early Extension in Your Golf Swing: 6 Proven Drills'
-description: Early extension is destroying your consistency. Learn what causes this
-  common swing flaw, why it leads to blocks and hooks, and 6 proven drills to fix
-  it for good.
+description: Early extension is destroying your consistency and causing lower back
+  pain. Learn what causes this common swing flaw, why it leads to blocks and hooks,
+  and 6+ proven drills to fix it for good.
 date: 2026-01-30
 author: Swing Analyzer Team
 categories:
@@ -15,12 +15,23 @@ tags:
 - posture
 - drills
 - consistency
+- back-pain
 image: /assets/images/early-extension-golf-swing.png
+keywords:
+- early extension golf
+- fix early extension golf swing
+- early extension swing fault
+- golf hip thrust fix
+- early extension drills
+- golf posture loss
+- early extension back pain
+redirect_from:
+  - /blog/early-extension-fix/
+  - /blog/fix-early-extension/
 seo:
-  title: 'How to Fix Early Extension in Your Golf Swing: 6 Proven Drills'
-  description: Early extension is destroying your consistency. Learn what causes this
-    common swing flaw, why it leads to blocks and hooks, and 6 proven drills to fix
-    it for good.
+  title: 'How to Fix Early Extension in Golf: 6 Proven Drills + Back Pain Fix'
+  description: Early extension causes inconsistent contact AND back pain. Learn what
+    causes this common swing fault and 6+ proven drills to fix it for good.
 ---
 
 Early extension is one of the most common and destructive swing flaws in golf. If you've ever hit a block to the right followed by a hook to the left, early extension might be the culprit. The good news? It's fixable with the right understanding and drills.
@@ -35,6 +46,12 @@ Early extension is any forward movement (thrust) of your lower body toward the g
 
 Having two opposite misses makes consistent golf nearly impossible.
 
+## Early Extension and Back Pain
+
+If you finish rounds with a sore lower back, early extension is a likely culprit. When your hips thrust toward the ball, your spine has to hyperextend (arch backward) to make room for your arms to swing through. This compresses your lower spine repeatedly throughout 72 shots.
+
+Fix the extension and you fix the back pain. They are the same problem.
+
 ## Why Early Extension Happens
 
 Understanding the root causes helps you target the right fix:
@@ -47,7 +64,7 @@ Understanding the root causes helps you target the right fix:
 ### Swing Mechanics
 - **Open clubface at the top** - Your body instinctively tries to close it by standing up
 - **Over-the-top swing path** - Creates a chain reaction of compensations (see our guide to [fixing the over-the-top swing](/blog/2026-01-30-fix-over-the-top-golf-swing))
-- **Improper weight transfer** - Failure to shift weight correctly forces the thrust (see [weight transfer fundamentals](/blog/2026-01-16-golf-weight-transfer))
+- **Improper weight transfer** - Failure to shift weight correctly forces the thrust (see [weight transfer fundamentals](/blog/golf-weight-transfer-guide/))
 - **Fear of the ground** - Subconscious avoidance of hitting the turf
 
 ### The Power Problem
@@ -115,6 +132,35 @@ Early extension doesn't just hurt accuracy - it costs you distance. When your hi
 **Why it works:** This mental cue prevents the premature hip thrust. Your lower body can still rotate powerfully while maintaining spine angle.
 
 **Reps:** Use this thought on every swing until it becomes automatic.
+
+### 7. The Headcover Drill
+
+**Setup:** Place a headcover or small towel between your thighs just above the knees at address.
+
+**Execute:** Make practice swings without letting it fall. Maintain consistent pressure on the headcover throughout the swing.
+
+**Why it works:** Engages your adductors and glutes, stabilizing the pelvis so it rotates instead of thrusting. If you extend early, you lose the squeeze and the headcover drops.
+
+**Reps:** 20 slow-motion swings building pelvis stability.
+
+### 8. The Pool Noodle Drill
+
+**Setup:** Cut a pool noodle in half and place it vertically in the ground just behind your trail hip at address.
+
+**Execute:** Make full swings without knocking the noodle over during the downswing.
+
+**Why it works:** Provides immediate feedback — if your hip thrusts forward, you knock it over. No conscious thought required; the feedback is automatic.
+
+**Reps:** 15 swings. If you knock it over every time, you likely have a mobility issue. Address flexibility before continuing.
+
+### Quick Self-Test
+
+Set up to an imaginary ball and record from down-the-line or face-on (phone on a tripod works fine). Check:
+
+1. At address, note how far your belt buckle is from the ball
+2. At impact, is it closer, the same, or farther?
+
+If it is closer at impact, you have early extension. Proper rotation keeps the distance the same or slightly increases it.
 
 ## Physical Fixes for Early Extension
 

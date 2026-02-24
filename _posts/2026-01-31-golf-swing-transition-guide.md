@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Golf Swing Transition: Master the Move That Transforms Your Game'
-description: Learn how to master the golf swing transition - the critical moment between
-  backswing and downswing that separates tour pros from amateurs. Includes drills
-  and common fixes.
+title: 'Golf Swing Transition: Where Power Lives (And How to Keep It)'
+description: The golf swing transition is where most amateur swings fall apart — and
+  where power is created or lost. Learn the correct sequence, avoid the most common
+  mistakes, and use drills to make it automatic.
 date: 2026-01-31
 author: Swing Analyzer Team
 categories:
@@ -15,17 +15,27 @@ tags:
 - power
 - timing
 - downswing
+- lag
 image: /assets/images/golf-swing-transition-guide.png
+keywords:
+- golf swing transition
+- downswing transition golf
+- how to start the downswing
+- golf transition drill
+- lag golf transition
+- bump and turn golf
+redirect_from:
+  - /blog/golf-swing-transition/
 seo:
-  title: 'Golf Swing Transition: Master the Move That Transforms Your Game'
-  description: Learn how to master the golf swing transition - the critical moment
-    between backswing and downswing that separates tour pros from amateurs. Includes
-    drills and common fixes.
+  title: 'Golf Swing Transition: Where Power Lives and How to Keep It'
+  description: The golf swing transition is where power is created or lost. Learn the correct sequence, avoid the most common mistakes, and use proven drills to make it automatic.
 ---
 
-# Golf Swing Transition: Master the Move That Transforms Your Game
+# Golf Swing Transition: Where Power Lives (And How to Keep It)
 
-The transition is the most critical quarter-second in golf. It's the moment your swing changes direction from backswing to downswing - and it's where most swings go wrong.
+The transition is the most critical quarter-second in golf. It's the moment your swing changes direction from backswing to downswing — and it's where most swings go wrong.
+
+Your backswing stores energy. Your downswing releases it. The transition is the handoff between the two, and how you manage that handoff determines everything. Get it wrong and you'll cast the club, come over the top, hit behind the ball, and tire yourself out generating arm-dominated swings. Get it right and the ball compression you've been chasing happens almost automatically.
 
 If your entire golf swing lasts approximately one second, the downswing itself only takes about 0.25 seconds. That's not a lot of time to make corrections. **The transition is where you set up everything that follows.**
 
@@ -44,7 +54,7 @@ Your transition should flow in this order:
 3. **Arms drop** - Falling naturally into the slot
 4. **Club follows** - The clubhead is actually last to move
 
-This sequence is called the **kinematic chain**, and it's the same pattern you'd use throwing a ball or skipping a stone. It's athletic, not mechanical. For the complete downswing breakdown, see our [golf downswing sequence guide](/blog/2026-01-25-golf-downswing-sequence).
+This sequence is called the **kinematic chain**, and it's the same pattern you'd use throwing a ball or skipping a stone. It's athletic, not mechanical. For the complete fault-fixing breakdown, see our [golf downswing sequence guide](/blog/master-golf-downswing-sequence/).
 
 ## Three Keys to a Proper Transition
 
@@ -111,6 +121,22 @@ Swing to the top, pump the club down halfway, return to the top, then swing thro
 ### The Towel Drop Drill
 
 Tuck a towel under your trail armpit. If it falls during transition, you're spinning too fast or your arms are getting disconnected. A proper transition keeps everything connected.
+
+### The Squat and Turn
+
+At the top of your backswing, feel like you're squatting slightly into your lead leg before rotating. This squat engages your lower body and creates the ground force that powers the swing.
+
+Start by exaggerating this move — it might feel like you're almost sitting down at the top. Over time, refine it into a subtle loading move that happens automatically. This is one of the fastest ways to feel what "lower body first" actually means.
+
+## What About Lag?
+
+Lag is the angle between your lead arm and the club shaft maintained deep into the downswing. Good players preserve that angle, then release it through impact for maximum speed.
+
+Here's the key insight: you do not create lag consciously. Lag is a byproduct of proper transition sequence and timing.
+
+When your lower body leads and your arms follow, lag happens naturally. When you cast from the top, lag disappears. Trying to "hold" lag with your hands typically creates tension that actually slows down your swing.
+
+Focus on the sequence — let lag be the result.
 
 ## What Tour Pros Do Differently
 
