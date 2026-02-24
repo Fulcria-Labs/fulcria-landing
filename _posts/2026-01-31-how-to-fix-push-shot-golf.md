@@ -15,6 +15,8 @@ tags:
 seo:
   title: How to Fix a Push Shot in Golf - Stop Missing Right
   description: "Stop pushing golf shots right with proven fixes and drills. Learn the real causes of push shots and how to square your clubface for straighter shots."
+redirect_from:
+  - /blog/fix-golf-push/
 ---
 
 You make solid contact. The ball feels pure off the face. But instead of flying at your target, it sails right and stays right. No curve, no spin. Just a straight miss into trouble.
@@ -35,6 +37,15 @@ This differs from other common misses:
 - **Push**: Starts right, stays straight (square face to path, but path too far right)
 
 Understanding this distinction matters because each miss has different causes and different fixes.
+
+| Shot | Path | Face Relative to Path | Result |
+|------|------|----------------------|--------|
+| Push | Inside-out | Square to path | Starts right, stays right |
+| Draw | Inside-out | Slightly closed | Starts right, curves left |
+| Push-slice | Inside-out | Open | Starts right, curves more right |
+| Straight | Neutral | Square | Starts at target, stays straight |
+
+A push is actually one step away from a controlled draw. If you can close the face slightly relative to your inside-out path, that push becomes a repeatable right-to-left shot. The path is not the problem. The issue is redirecting it.
 
 ## What Causes a Push Shot?
 
