@@ -5,7 +5,7 @@ date: 2026-02-11
 categories:
 - golf
 - instruction
-description: "Fix your golf downswing sequence with this fault-fixing guide. Learn the proper downswing order, identify your mistake, and use targeted drills."
+description: "Fix your golf downswing sequence with this fault-fixing guide. Learn the proper downswing order, identify your mistake, and use targeted drills for more power and consistency."
 author: Swing Analyzer Team
 image: /assets/images/golf-downswing-sequence-faults.png
 tags:
@@ -14,9 +14,20 @@ tags:
 - downswing transition
 - swing faults
 - golf drills
+- kinematic chain
+- ground force
+keywords:
+- golf downswing sequence
+- proper downswing order
+- downswing transition golf
+- downswing faults golf
+- golf swing sequence hips first
+- kinematic sequence golf
+redirect_from:
+  - /blog/golf-downswing-sequence/
 seo:
-  title: "Master the Golf Downswing Sequence: 5 Faults and Fixes"
-  description: "Fix your golf downswing sequence with targeted drills. Learn the proper downswing transition order and how to diagnose your specific swing fault."
+  title: "Golf Downswing Sequence: 5 Faults and How to Fix Them"
+  description: "Fix your golf downswing sequence with targeted drills. Learn the proper downswing transition order, the kinematic chain, and how to diagnose your specific fault."
 ---
 
 You can have the prettiest backswing in your foursome and still spray the ball all over the course. Why? Because the golf downswing sequence is where contact and power are actually created.
@@ -40,6 +51,22 @@ Every powerful, consistent golf swing follows the same downswing sequence, regar
 This is called the kinematic chain. Energy transfers from large, slow body segments to smaller, faster ones. Each segment accelerates, then decelerates as it passes energy to the next.
 
 When the sequence works correctly, your 5-iron swing feels effortless but flies 20 yards farther than your "hard" swings. That is the power of proper sequencing.
+
+## The Ground-Up Power Chain Explained
+
+Power in the golf swing comes from the ground up. Here is the complete transfer:
+
+**Feet and Legs** — As your upper body completes the backswing, your lower body starts moving toward the target. Pressure shifts into the lead foot. Feel: push into the ground, like you are trying to make a footprint.
+
+**Hips** — Your hips begin to rotate open. By impact, they will be 40-45 degrees open to the target line. The subtle lateral bump happens before rotation begins. Feel: belt buckle moves toward the target one inch before it starts turning.
+
+**Torso** — Your shoulders follow your hips, but they lag behind. This creates the X-factor stretch — the shoulder-hip differential that stores power. Feel: your back stays toward the target slightly longer than you expect.
+
+**Arms** — Your arms drop naturally into the slot as your body rotates. You are not pulling them down — they fall because your body is moving first. Feel: heavy arms that drop from gravity, not effort.
+
+**Club** — The club arrives last, having accelerated through the entire chain. The clubhead reaches maximum speed right at impact — not before. Feel: the club lagging behind your hands, then releasing through the ball.
+
+This is why trying to swing harder with your arms actually slows you down. You bypass the energy transfer. The club never receives the accumulated power from your body.
 
 ## How to Know If Your Sequence Is Off
 

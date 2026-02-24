@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Golf Weight Transfer: The Foundation of Power and Consistency'
+title: 'Golf Weight Transfer: The Foundation You Cannot Skip'
 date: '2026-01-30'
 categories:
 - golf
 - swing-tips
 description: Master weight transfer in your golf swing to unlock more distance and
-  better contact. Learn the 75/25 rule, common mistakes, and drills that work.
+  better contact. Learn the 75/25 rule, the reverse pivot mistake, and 7 proven drills.
 author: Swing Analyzer Team
 tags:
 - weight transfer
@@ -14,6 +14,18 @@ tags:
 - fundamentals
 - balance
 - practice drills
+- ground force
+keywords:
+- golf weight transfer
+- weight shift golf swing
+- golf weight transfer drills
+- reverse pivot golf
+- ground force golf swing
+redirect_from:
+  - /blog/golf-weight-transfer/
+seo:
+  title: 'Golf Weight Transfer: The Foundation You Cannot Skip'
+  description: Master weight transfer in your golf swing to unlock more distance and better contact. Learn the 75/25 rule, avoid the reverse pivot, and use 7 proven drills.
 ---
 
 # Golf Weight Transfer: The Foundation of Power and Consistency
@@ -87,6 +99,18 @@ Make swings at half speed, pausing at the top to check your weight distribution.
 
 ### The Step Back Drill
 Start with your feet close together. As you begin your backswing, step your trail foot back. As you transition, step your lead foot toward the target. This exaggerates the weight transfer motion.
+
+### The Water Bottle Drill
+
+Place a water bottle just outside your trail heel. Make swings without knocking it over. This trains you to shift forward without sliding — if you sway instead of rotate, the bottle tips.
+
+### Push the Ground
+
+Focus on the feel of pushing off your trail foot as you start down. It should feel like you are jumping off that foot. Think of the ground as your launchpad. This connects the weight transfer directly to ground force mechanics.
+
+### Swing to Your Finish
+
+Instead of thinking about the ball, think about your finish position. Swing all the way through to where you are balanced on your front foot, chest facing the target. When you commit to a good finish, weight transfer tends to take care of itself.
 
 ## Common Weight Transfer Mistakes
 
