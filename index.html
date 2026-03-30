@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fulcria Labs - Technology That Matters</title>
-    <meta name="description" content="Fulcria Labs builds technology products that solve real problems. Our ventures include AI-powered tools, software products, and innovative solutions.">
+    <title>Free AI Golf Swing Analysis | Swing Analyzer by Fulcria Labs</title>
+    <meta name="description" content="Get instant AI golf swing analysis in 90 seconds — free, no credit card required. Upload any swing video and receive professional-level feedback. Golf season starts now.">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Fulcria Labs - Technology That Matters">
-    <meta property="og:description" content="We build technology products that solve real problems. Our ventures span AI, software, and innovative solutions.">
+    <meta property="og:title" content="Free AI Golf Swing Analysis — Results in 90 Seconds">
+    <meta property="og:description" content="Upload any swing video and get professional-level AI analysis in 90 seconds. Free to try, no credit card needed. Golf season is here.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://fulcria.com">
     <meta property="og:image" content="https://fulcria.com/assets/images/logo-400.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Fulcria Labs - Technology That Matters">
-    <meta name="twitter:description" content="We build technology products that solve real problems.">
+    <meta name="twitter:title" content="Free AI Golf Swing Analysis — Results in 90 Seconds">
+    <meta name="twitter:description" content="Upload any swing video and get professional-level AI analysis in 90 seconds. Free to try, no credit card needed.">
     <meta name="twitter:image" content="https://fulcria.com/assets/images/logo-400.png">
+
+    <!-- JSON-LD: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Swing Analyzer",
+      "operatingSystem": "Web, Android, iOS",
+      "applicationCategory": "SportsApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "First analysis free, no credit card required"
+      },
+      "description": "AI-powered golf swing analysis. Upload any swing video and receive professional-level feedback in 90 seconds.",
+      "url": "https://swing.fulcria.com",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fulcria Labs LLC",
+        "url": "https://fulcria.com"
+      }
+    }
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -79,6 +103,28 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 1.5rem;
+        }
+
+        /* ===== GOLF SEASON BANNER ===== */
+        .season-banner {
+            background: linear-gradient(90deg, #2f855a 0%, #276749 100%);
+            color: white;
+            text-align: center;
+            padding: 0.625rem 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .season-banner a {
+            color: #c6f6d5;
+            font-weight: 700;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(198,246,213,0.5);
+        }
+
+        .season-banner a:hover {
+            color: white;
+            border-bottom-color: white;
         }
 
         /* ===== HEADER ===== */
@@ -716,6 +762,11 @@
     </style>
 </head>
 <body>
+    <!-- Golf Season Banner -->
+    <div class="season-banner">
+        Golf season is here &mdash; get your swing dialed in before your first round. <a href="https://swing.fulcria.com">Free AI analysis &rarr;</a>
+    </div>
+
     <!-- Header -->
     <header>
         <div class="container header-content">
@@ -730,7 +781,7 @@
                 <a href="#ventures">Ventures</a>
                 <a href="https://fulcria.com/blog">Blog</a>
                 <a href="https://github.com/Fulcria-Labs" target="_blank">GitHub</a>
-                <a href="mailto:admin@fulcria.com" class="nav-cta">Contact</a>
+                <a href="https://swing.fulcria.com" class="nav-cta">Try Free</a>
             </nav>
         </div>
     </header>
@@ -739,11 +790,11 @@
     <section class="hero">
         <div class="container hero-content">
             <img src="assets/images/logo-400.png" alt="Fulcria Labs" class="hero-logo">
-            <h1>Building Technology<br>That Matters</h1>
-            <p class="tagline">Innovate. Create. Excel.</p>
-            <p>Fulcria Labs is a technology company focused on building products that solve real problems. We combine deep domain expertise with modern technology to create tools people actually want to use.</p>
-            <a href="#ventures" class="hero-cta">
-                Explore Our Ventures
+            <h1>Analyze Your First Swing Free<br>No App Needed</h1>
+            <p class="tagline">AI Golf Swing Analysis in 90 Seconds</p>
+            <p>Upload any swing video from your phone and get professional-level feedback instantly. No credit card. No app download. Just instant, actionable coaching.</p>
+            <a href="https://swing.fulcria.com" class="hero-cta">
+                Analyze My Swing Free
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
@@ -807,15 +858,15 @@
                     <span class="venture-badge">Live</span>
                     <h3>Swing Analyzer</h3>
                     <p class="venture-tagline">AI Golf Coach in Your Pocket</p>
-                    <p>Upload any swing video and get professional-level analysis in 90 seconds. No tripod needed. No waiting for results. Just instant, actionable feedback.</p>
+                    <p>Upload any swing video and get professional-level AI analysis in 90 seconds. No tripod needed. No credit card. Just instant, actionable feedback to lower your score.</p>
                     <ul class="venture-features">
-                        <li>90-second AI analysis</li>
+                        <li>First analysis free — no credit card</li>
                         <li>Works with any phone video</li>
                         <li>Fun letter grades (A+ to F)</li>
-                        <li>Handicap estimation</li>
+                        <li>Handicap estimation + trends</li>
                     </ul>
                     <a href="https://swing.fulcria.com" class="venture-cta">
-                        Try Free
+                        Analyze My Swing Free
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14M12 5l7 7-7 7"/>
                         </svg>
@@ -887,13 +938,12 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container cta-content">
-            <h2>Let's Build Something</h2>
-            <p>Whether you're interested in our products, have feedback, or want to explore collaboration opportunities, we'd love to hear from you.</p>
-            <a href="mailto:admin@fulcria.com" class="hero-cta">
-                Get in Touch
+            <h2>Golf Season Is Here. Is Your Swing Ready?</h2>
+            <p>Get AI-powered swing analysis in 90 seconds. Your first analysis is completely free &mdash; no credit card, no app download required.</p>
+            <a href="https://swing.fulcria.com" class="hero-cta">
+                Analyze My Swing Free
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                    <polyline points="22,6 12,13 2,6"/>
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
                 </svg>
             </a>
         </div>
