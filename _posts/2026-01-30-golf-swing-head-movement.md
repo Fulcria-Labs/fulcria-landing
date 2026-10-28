@@ -1,15 +1,9 @@
 ---
 layout: post
-title: 'Golf Swing Head Movement: The Truth About Keeping Your Head Still'
-description: Discover what really happens with your head during the golf swing. Learn
-  why 'keep your head still' is misleading and how proper head position leads to better
-  contact.
-date: 2026-01-30
-author: Swing Analyzer Team
-categories:
-- instruction
-- fundamentals
+title: 'How to Keep Your Head Still in the Golf Swing (and What Is Okay)'
+description: Learn how to keep your head still in the golf swing, how much head movement is normal, and a simple drill to quiet it for better contact.
 tags:
+- keep your head still golf swing
 - golf swing
 - head movement
 - balance
@@ -17,11 +11,23 @@ tags:
 - fundamentals
 image: /assets/images/golf-head-movement.png
 seo:
-  title: 'Golf Swing Head Movement: The Truth About Keeping Your Head Still'
-  description: Discover what really happens with your head during the golf swing.
-    Learn why 'keep your head still' is misleading and how proper head position leads
-    to better contact.
+  title: 'How to Keep Your Head Still in the Golf Swing (and What Is Okay)'
+  description: Learn how to keep your head still in the golf swing, how much head movement is normal, and a simple drill to quiet it for better contact.
 ---
+
+<div class="plain-answer" style="background:#f0f7f2; border-left:4px solid #2f855a; padding:14px 18px; margin:20px 0; border-radius:6px;">
+<strong>The short answer:</strong> To keep your head still, pick a spot on the ground at the ball and look at it until the club has passed it. A small wobble is normal. A big move up, down or sideways changes where the club bottoms out, so contact gets inconsistent. Quiet head, turning body.
+</div>
+
+## Drill: spot on the ground
+
+1. Put a coin, sticker or tee on the ground where the ball would be.
+2. Set up and look at the spot with a relaxed neck.
+3. Make slow practice swings with no ball. Keep looking at the spot until the club has passed it.
+4. Let your head turn a little late. Do not lift it early to watch.
+5. Do 10 swings.
+
+It should feel like your head is quiet while your body turns around it. Clear some space, and stop if anything hurts.
 
 "Keep your head still!" It's the most common advice in golf. And it's also one of the most misunderstood.
 
@@ -127,7 +133,7 @@ When reviewing your swing:
 - Check if it returns to roughly the same spot at impact
 - Look for any dramatic dipping or lifting
 
-[AI-powered swing analyzers](/blog/how-ai-analyzes-golf-swing/) can track this automatically, comparing your head movement patterns to optimal benchmarks and highlighting when something's off.
+A [swing analyzer](/blog/how-ai-analyzes-golf-swing/) can measure this for you. Swing Analyzer, our free beta, checks how far your head moves between setup and impact when you film from behind.
 
 ## The One Thing to Remember
 
@@ -155,8 +161,8 @@ Stop trying to freeze your head. Start building a swing where proper movement ha
 
 ## Track Your Progress
 
-The best way to improve your head position is to see what's actually happening. [Record your swing from face-on](/blog/phone-golf-swing-video/) and review it in slow motion.
+The best way to improve your head position is to see what's actually happening. [Record your swing from behind](/blog/phone-golf-swing-video/) and review it in slow motion.
 
 Better yet, use a swing analyzer that tracks your key positions automatically. You'll see exactly how much your head moves—and whether it's helping or hurting your contact.
 
-[Try Swing Analyzer →](https://swing.fulcria.com)
+[Check my head movement free →](https://swing.fulcria.com/?utm_source=blog&utm_medium=post&utm_campaign=golf-swing-head-movement)
