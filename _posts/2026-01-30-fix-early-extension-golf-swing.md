@@ -1,11 +1,9 @@
 ---
 layout: post
-title: 'How to Fix Early Extension in Your Golf Swing: 6 Proven Drills'
-description: Early extension is destroying your consistency and causing lower back
-  pain. Learn what causes this common swing flaw, why it leads to blocks and hooks,
-  and 6+ proven drills to fix it for good.
+title: 'Why Do I Stand Up Through the Ball? How to Fix Early Extension'
+description: Standing up through the ball (called early extension) hurts your contact and can make your back sore. Here is why it happens and the drills that fix it.
 date: 2026-01-30
-author: Swing Analyzer Team
+author: Fulcria Labs
 categories:
 - golf-instruction
 - swing-fixes
@@ -18,6 +16,8 @@ tags:
 - back-pain
 image: /assets/images/early-extension-golf-swing.png
 keywords:
+- why do I stand up through the ball
+- standing up in the golf swing
 - early extension golf
 - fix early extension golf swing
 - early extension swing fault
@@ -29,14 +29,17 @@ redirect_from:
   - /blog/early-extension-fix/
   - /blog/fix-early-extension/
 seo:
-  title: 'How to Fix Early Extension in Golf: 6 Proven Drills + Back Pain Fix'
-  description: Early extension causes inconsistent contact AND back pain. Learn what
-    causes this common swing fault and 6+ proven drills to fix it for good.
+  title: 'Why Do I Stand Up Through the Ball? How to Fix Early Extension'
+  description: Standing up through the ball (called early extension) hurts your contact and can make your back sore. Here is why it happens and the drills that fix it.
 ---
 
-Early extension is one of the most common and destructive swing flaws in golf. If you've ever hit a block to the right followed by a hook to the left, early extension might be the culprit. The good news? It's fixable with the right understanding and drills.
+<div class="plain-answer" style="background:#f0f7f2; border-left:4px solid #2f855a; padding:14px 18px; margin:20px 0; border-radius:6px;">
+<strong>The short answer:</strong> You stand up through the ball because your hips slide toward it on the way down, which leaves your arms with no room. Golfers call this early extension. Tight hips, weak glutes and a habit of leaning back at the top are the usual causes. The fix is to keep your bottom back and your chest bent over.
+</div>
 
-## What is Early Extension?
+Standing up through the ball (golfers call it early extension) is one of the most common and destructive swing flaws in golf. If you've ever hit a block to the right followed by a hook to the left, early extension might be the culprit. The good news? It's fixable with the right understanding and drills.
+
+## What Is Standing Up Through the Ball (Early Extension)?
 
 Early extension is any forward movement (thrust) of your lower body toward the golf ball during the downswing. Instead of rotating around a stable spine, your hips push toward the ball, forcing your torso to stand up and your arms to get "stuck" behind your body.
 
@@ -197,7 +200,7 @@ Look for these checkpoints:
 - **At impact** - Hips should be in the same position or slightly farther from the ball
 - **Through impact** - Rotation around spine, not thrust toward ball
 
-[Swing Analyzer](https://swing.fulcria.com) can help you track your posture through the swing, giving you objective feedback on whether you're maintaining your spine angle or early extending.
+[Swing Analyzer](https://swing.fulcria.com/?utm_source=blog&utm_medium=post&utm_campaign=fix-early-extension) is a free beta that checks whether you stand up through the ball. Film from behind you and it compares how bent over you are at setup and at impact.
 
 ## Common Mistakes When Fixing Early Extension
 
@@ -221,4 +224,4 @@ Your lower back will thank you, and your consistency will improve dramatically o
 
 ---
 
-*Struggling to see your own early extension? [Swing Analyzer](https://swing.fulcria.com) provides instant AI-powered feedback on your swing, including posture throughout the motion. Try it free and see exactly what your hips are doing.*
+*Can't tell if you stand up through the ball? [Swing Analyzer](https://swing.fulcria.com/?utm_source=blog&utm_medium=post&utm_campaign=fix-early-extension) is a free beta web app. Film your swing from behind with your phone and it shows the one thing to fix, in plain English, with a drill.*

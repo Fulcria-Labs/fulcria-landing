@@ -1,0 +1,20 @@
+# Fulcria Labs
+
+> Swing Analyzer is a free beta web app from Fulcria Labs. Film your golf swing with your phone and it shows the one thing to fix, in plain English, with a drill.
+
+## Swing Analyzer
+- Checks three things: standing up through the ball, head movement, and rhythm.
+- Works best filmed from behind you, in line with the target. Rhythm needs a slow-motion or 60 frames a second video.
+- It is a beta and can be wrong. It does not see the club path or the ball.
+
+## Key pages
+- [Try Swing Analyzer free](https://swing.fulcria.com/)
+- [How to film your golf swing with a phone](https://swing.fulcria.com/how-to-film)
+- [What is Swing Analyzer?](https://swing.fulcria.com/about)
+- [Why do I stand up through the ball?](https://fulcria.com/blog/fix-early-extension-golf-swing/)
+- [How to keep your head still in the golf swing](https://fulcria.com/blog/golf-swing-head-movement/)
+- [Free golf swing analyzer apps: what is actually free](https://fulcria.com/blog/best-free-golf-swing-analyzer-apps/)
+- [All blog posts](https://fulcria.com/blog/)
+
+## Contact
+Fulcria Labs LLC, support@fulcria.com
